@@ -41,61 +41,49 @@ export default function Tarifs() {
             <tbody>
               {[
                 {
-                  name: 'Permis Côtier',
-                  formation: '299€',
-                  timbre: '78€',
-                  examen: '30€',
-                  total: '407€',
-                  highlight: false,
+                  name: 'Option C\u00f4ti\u00e8re',
+                  formation: '445\u20ac',
+                  timbre: '78\u20ac',
+                  examen: '30\u20ac',
+                  total: '553\u20ac',
                 },
                 {
-                  name: 'Permis Fluvial',
-                  formation: '299€',
-                  timbre: '78€',
-                  examen: '30€',
-                  total: '407€',
-                  highlight: false,
+                  name: 'Th\u00e9orie Eaux Int\u00e9rieures',
+                  formation: '225\u20ac',
+                  timbre: '78\u20ac',
+                  examen: '30\u20ac',
+                  total: '333\u20ac',
                 },
                 {
-                  name: 'Pack Côtier + Fluvial',
-                  formation: '449€',
-                  timbre: '156€',
-                  examen: '60€',
-                  total: '665€',
-                  highlight: true,
+                  name: 'Option C\u00f4ti\u00e8re + Eaux Int\u00e9rieures',
+                  formation: '545\u20ac',
+                  timbre: '156\u20ac',
+                  examen: '60\u20ac',
+                  total: '761\u20ac',
                 },
                 {
-                  name: 'Extension Hauturière',
-                  formation: '379€',
-                  timbre: '38€',
-                  examen: '—',
-                  total: '417€',
-                  highlight: false,
+                  name: 'Extension Hauturi\u00e8re',
+                  formation: '420\u20ac',
+                  timbre: '38\u20ac',
+                  examen: '\u2014',
+                  total: '458\u20ac',
                 },
                 {
-                  name: 'Extension Fluviale',
-                  formation: '150€',
-                  timbre: '78€',
-                  examen: '30€',
-                  total: '258€',
-                  highlight: false,
+                  name: 'Cours Pratique - Remise \u00e0 niveau',
+                  formation: '90\u20ac',
+                  timbre: '\u2014',
+                  examen: '\u2014',
+                  total: '90\u20ac',
                 },
               ].map((row) => (
                 <tr
                   key={row.name}
-                  className={`border-b border-gray-200 ${
-                    row.highlight ? 'bg-sand-50' : 'hover:bg-gray-50'
-                  } transition-colors`}
+                  className="border-b border-gray-200 hover:bg-gray-50 transition-colors"
                 >
                   <td className="py-4 px-4">
                     <span className="font-semibold text-navy-900">
                       {row.name}
                     </span>
-                    {row.highlight && (
-                      <span className="ml-2 inline-block bg-sand-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
-                        BEST
-                      </span>
-                    )}
                   </td>
                   <td className="py-4 px-4 text-center text-gray-700">
                     {row.formation}

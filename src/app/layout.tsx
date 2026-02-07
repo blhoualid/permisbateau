@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: '%s | Permis Bateau Metz',
   },
   description:
-    'Centre de formation agr\u00e9\u00e9 permis bateau \u00e0 Metz. Permis c\u00f4tier \u00e0 partir de 299\u20ac, fluvial, hauturier. Taux de r\u00e9ussite 97%. Stages acc\u00e9l\u00e9r\u00e9s et cours du soir sur la Moselle.',
+    'Centre de formation agr\u00e9\u00e9 permis bateau \u00e0 Metz. Permis c\u00f4tier, fluvial, hauturier. Taux de r\u00e9ussite 97%. Stages acc\u00e9l\u00e9r\u00e9s et cours du soir sur la Moselle.',
   keywords: [
     'permis bateau metz',
     'permis c\u00f4tier metz',
@@ -30,9 +30,9 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     url: 'https://permis-bateau-metz.fr',
     siteName: 'Permis Bateau Metz',
-    title: 'Permis Bateau Metz | Formation C\u00f4tier, Fluvial & Hauturier d\u00e8s 299\u20ac',
+    title: 'Permis Bateau Metz | Formation C\u00f4tier, Fluvial & Hauturier',
     description:
-      'Passez votre permis bateau \u00e0 Metz avec un centre agr\u00e9\u00e9. Taux de r\u00e9ussite 97%, stages acc\u00e9l\u00e9r\u00e9s, cours sur la Moselle. D\u00e8s 299\u20ac.',
+      'Passez votre permis bateau \u00e0 Metz avec un centre agr\u00e9\u00e9. Taux de r\u00e9ussite 97%, stages acc\u00e9l\u00e9r\u00e9s, cours sur la Moselle.',
     images: [
       {
         url: '/og-image.jpg',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Permis Bateau Metz | D\u00e8s 299\u20ac - Taux de r\u00e9ussite 97%',
+    title: 'Permis Bateau Metz | Taux de r\u00e9ussite 97%',
     description:
       'Passez votre permis bateau \u00e0 Metz. C\u00f4tier, fluvial, hauturier. Stages acc\u00e9l\u00e9r\u00e9s et cours du soir.',
     images: ['/og-image.jpg'],
@@ -131,33 +131,33 @@ const localBusinessSchema = {
         '@type': 'Offer',
         itemOffered: {
           '@type': 'Course',
-          name: 'Permis C\u00f4tier',
+          name: 'Permis Bateau - Option C\u00f4ti\u00e8re',
           description: 'Formation compl\u00e8te au permis c\u00f4tier avec th\u00e9orie et pratique sur la Moselle',
           provider: { '@id': 'https://permis-bateau-metz.fr/#organization' },
         },
-        price: '299',
+        price: '445',
         priceCurrency: 'EUR',
       },
       {
         '@type': 'Offer',
         itemOffered: {
           '@type': 'Course',
-          name: 'Permis Fluvial',
+          name: 'Permis Bateau - Th\u00e9orie Eaux Int\u00e9rieures',
           description: 'Formation au permis eaux int\u00e9rieures pour naviguer sur les rivi\u00e8res et canaux',
           provider: { '@id': 'https://permis-bateau-metz.fr/#organization' },
         },
-        price: '299',
+        price: '225',
         priceCurrency: 'EUR',
       },
       {
         '@type': 'Offer',
         itemOffered: {
           '@type': 'Course',
-          name: 'Pack C\u00f4tier + Fluvial',
-          description: 'Formation combin\u00e9e permis c\u00f4tier et fluvial \u00e0 tarif pr\u00e9f\u00e9rentiel',
+          name: 'Permis Bateau - Option C\u00f4ti\u00e8re et Eaux Int\u00e9rieures',
+          description: 'Formation combin\u00e9e permis c\u00f4tier et eaux int\u00e9rieures',
           provider: { '@id': 'https://permis-bateau-metz.fr/#organization' },
         },
-        price: '449',
+        price: '545',
         priceCurrency: 'EUR',
       },
       {
@@ -168,7 +168,18 @@ const localBusinessSchema = {
           description: 'Extension hauturi\u00e8re pour la navigation au large sans limite de distance',
           provider: { '@id': 'https://permis-bateau-metz.fr/#organization' },
         },
-        price: '379',
+        price: '420',
+        priceCurrency: 'EUR',
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Course',
+          name: 'Cours Pratique - Remise \u00e0 niveau',
+          description: 'S\u00e9ance de pratique encadr\u00e9e pour les titulaires de permis souhaitant se remettre \u00e0 niveau',
+          provider: { '@id': 'https://permis-bateau-metz.fr/#organization' },
+        },
+        price: '90',
         priceCurrency: 'EUR',
       },
     ],

@@ -177,7 +177,7 @@ export default async function ArticlePage({ params }: PageProps) {
                   Envie de passer votre permis bateau ?
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Inscrivez-vous d&egrave;s maintenant et b&eacute;n&eacute;ficiez de nos tarifs comp&eacute;titifs d&egrave;s 299&euro;.
+                  Inscrivez-vous d&egrave;s maintenant. Plusieurs formules adapt&eacute;es &agrave; votre projet.
                 </p>
                 <Link href="/#contact" className="btn-primary !py-3">
                   Demander un rappel gratuit
@@ -211,9 +211,9 @@ export default async function ArticlePage({ params }: PageProps) {
 
                 {/* CTA card */}
                 <div className="gradient-navy rounded-xl p-6 text-center">
-                  <p className="text-white font-bold text-lg mb-2">D&egrave;s 299&euro;</p>
+                  <p className="text-white font-bold text-lg mb-2">Nos formations</p>
                   <p className="text-white/60 text-sm mb-4">
-                    Permis c&ocirc;tier ou fluvial
+                    C&ocirc;tier, fluvial, hauturier
                   </p>
                   <Link
                     href="/#contact"

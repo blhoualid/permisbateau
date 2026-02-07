@@ -9,17 +9,16 @@ const formations = [
         <path d="M24 10 L28 22 H20 Z" className="fill-ocean-500" />
       </svg>
     ),
-    title: 'Permis Côtier',
+    title: 'Permis Bateau - Option C\u00f4ti\u00e8re',
     description:
-      'Naviguez en mer jusqu\'à 6 milles d\'un abri et sur toutes les eaux intérieures. Le permis le plus polyvalent.',
+      'Naviguez en mer jusqu\u2019\u00e0 6 milles d\u2019un abri et sur toutes les eaux int\u00e9rieures. Le permis le plus polyvalent.',
     features: [
-      '5 à 8h de théorie en salle ou e-learning',
+      '5 \u00e0 8h de th\u00e9orie en salle ou e-learning',
       '3h30 de pratique sur la Moselle',
-      'Accès plateforme révision illimité',
+      'Acc\u00e8s plateforme r\u00e9vision illimit\u00e9',
       'Examen en centre La Poste',
     ],
-    price: '299',
-    popular: true,
+    price: '445',
   },
   {
     icon: (
@@ -31,17 +30,16 @@ const formations = [
         <circle cx="34" cy="24" r="3" className="fill-ocean-500" />
       </svg>
     ),
-    title: 'Permis Fluvial',
+    title: 'Permis Bateau - Th\u00e9orie Eaux Int\u00e9rieures',
     description:
-      'Spécialisé pour les rivières, canaux et lacs. Idéal pour naviguer sur la Moselle et les voies navigables.',
+      'Sp\u00e9cialis\u00e9 pour les rivi\u00e8res, canaux et lacs. Id\u00e9al pour naviguer sur la Moselle et les voies navigables.',
     features: [
-      '3 à 6h de théorie spécifique',
-      '3h30 de pratique avec passage d\'écluse',
-      'Réglementation eaux intérieures',
+      '3 \u00e0 6h de th\u00e9orie sp\u00e9cifique',
+      '3h30 de pratique avec passage d\u2019\u00e9cluse',
+      'R\u00e9glementation eaux int\u00e9rieures',
       'Examen en centre La Poste',
     ],
-    price: '299',
-    popular: false,
+    price: '225',
   },
   {
     icon: (
@@ -53,17 +51,36 @@ const formations = [
         <path d="M24 24 L32 16" className="stroke-ocean-700" strokeWidth="2" />
       </svg>
     ),
-    title: 'Extension Hauturière',
+    title: 'Permis Bateau - Extension Hauturi\u00e8re',
     description:
-      'Naviguez au-delà des 6 milles, sans limite de distance. Navigation astronomique et météo avancée.',
+      'Naviguez au-del\u00e0 des 6 milles, sans limite de distance. Navigation astronomique et m\u00e9t\u00e9o avanc\u00e9e.',
     features: [
-      'Formation théorique approfondie',
-      'Navigation astronomique & électronique',
-      'Météo marine avancée',
-      'Examen théorique uniquement',
+      'Formation th\u00e9orique approfondie',
+      'Navigation astronomique & \u00e9lectronique',
+      'M\u00e9t\u00e9o marine avanc\u00e9e',
+      'Examen th\u00e9orique uniquement',
     ],
-    price: '379',
-    popular: false,
+    price: '420',
+  },
+  {
+    icon: (
+      <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none">
+        <path d="M14 34 L24 14 L34 34" className="stroke-ocean-500" strokeWidth="2" fill="none" />
+        <path d="M10 38 Q24 30 38 38" className="stroke-ocean-600" strokeWidth="2.5" fill="none" />
+        <circle cx="24" cy="10" r="3" className="fill-ocean-400" />
+        <path d="M18 28 L30 28" className="stroke-ocean-400" strokeWidth="1.5" />
+      </svg>
+    ),
+    title: 'Cours Pratique - Remise \u00e0 niveau',
+    description:
+      'Reprenez confiance sur l\u2019eau. S\u00e9ance de pratique encadr\u00e9e pour les titulaires de permis souhaitant se remettre \u00e0 niveau.',
+    features: [
+      'Session individuelle ou petit groupe',
+      'Man\u0153uvres d\u2019accostage et appareillage',
+      'Rappels de s\u00e9curit\u00e9',
+      'Sur la Moselle, conditions r\u00e9elles',
+    ],
+    price: '90',
   },
 ]
 
@@ -79,31 +96,23 @@ export default function Formations() {
             Choisissez votre permis bateau
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Trois formations adaptées à vos projets de navigation. Toutes incluent la théorie, la pratique et l&apos;accès à notre plateforme e-learning.
+            Des formations adapt\u00e9es \u00e0 vos projets de navigation. Th\u00e9orie, pratique et acc\u00e8s \u00e0 notre plateforme e-learning inclus.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {formations.map((formation) => (
             <div
               key={formation.title}
-              className={`card p-8 relative ${
-                formation.popular ? 'ring-2 ring-sand-500 scale-105' : ''
-              }`}
+              className="card p-8 relative flex flex-col"
             >
-              {formation.popular && (
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-sand-500 text-white text-sm font-bold px-4 py-1 rounded-full pulse-badge">
-                  Le + populaire
-                </div>
-              )}
-
               <div className="mb-6">{formation.icon}</div>
 
-              <h3 className="font-heading text-2xl font-bold text-navy-900 mb-3">
+              <h3 className="font-heading text-xl font-bold text-navy-900 mb-3">
                 {formation.title}
               </h3>
 
-              <p className="text-gray-600 mb-6">{formation.description}</p>
+              <p className="text-gray-600 text-sm mb-6">{formation.description}</p>
 
               <ul className="space-y-3 mb-8">
                 {formation.features.map((feature) => (
@@ -131,13 +140,10 @@ export default function Formations() {
                   <span className="text-4xl font-heading font-black text-navy-900">
                     {formation.price}&euro;
                   </span>
-                  <span className="text-gray-500 text-sm">/ formation</span>
                 </div>
                 <Link
                   href="#contact"
-                  className={`w-full text-center ${
-                    formation.popular ? 'btn-primary' : 'btn-secondary'
-                  } !py-3`}
+                  className="w-full text-center btn-secondary !py-3"
                 >
                   S&apos;inscrire
                 </Link>
@@ -150,25 +156,19 @@ export default function Formations() {
         <div className="mt-16 max-w-4xl mx-auto">
           <div className="gradient-navy rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
-              <div className="inline-block bg-sand-500 text-white text-sm font-bold px-3 py-1 rounded-full mb-4">
-                -149&euro; d&apos;économie
-              </div>
               <h3 className="font-heading text-2xl md:text-3xl font-bold text-white mb-2">
-                Pack Côtier + Fluvial
+                Option C\u00f4ti\u00e8re + Eaux Int\u00e9rieures
               </h3>
               <p className="text-white/70 max-w-md">
-                Les deux permis en une seule formation. Naviguez partout en France : mer, rivières, canaux et lacs.
+                Les deux permis en une seule formation. Naviguez partout en France : mer, rivi\u00e8res, canaux et lacs.
               </p>
             </div>
             <div className="text-center flex-shrink-0">
-              <div className="text-5xl font-heading font-black text-white mb-1">
-                449&euro;
-              </div>
-              <div className="text-white/50 text-sm line-through mb-4">
-                598&euro;
+              <div className="text-5xl font-heading font-black text-white mb-4">
+                545&euro;
               </div>
               <Link href="#contact" className="btn-primary">
-                Je choisis le pack
+                S&apos;inscrire
               </Link>
             </div>
           </div>

@@ -28,7 +28,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2 mb-8">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
             <span className="text-white/90 text-sm font-medium">
-              Inscriptions ouvertes &mdash; Prochaine session : Mars 2026
+              Inscriptions ouvertes &mdash; Centre agr&eacute;&eacute; Moselle
             </span>
           </div>
 
@@ -40,13 +40,12 @@ export default function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-white/80 mb-4 max-w-2xl mx-auto leading-relaxed">
-            Formation complète dès{' '}
-            <span className="text-sand-400 font-bold">299&euro;</span>.
-            Cours théoriques + pratique sur la Moselle.
+            Formation compl&egrave;te sur la Moselle.
+            Th&eacute;orie + pratique, stages week-end et cours du soir.
           </p>
 
           <p className="text-lg text-white/60 mb-10 max-w-xl mx-auto">
-            Centre agréé &bull; 97% de réussite &bull; Stages week-end disponibles
+            Centre agr&eacute;&eacute; &bull; 97% de r&eacute;ussite &bull; Formateurs exp&eacute;riment&eacute;s
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
@@ -66,7 +65,7 @@ export default function Hero() {
             {[
               { number: '97%', label: 'Taux de réussite' },
               { number: '500+', label: 'Élèves formés' },
-              { number: '299€', label: 'Dès seulement' },
+              { number: '15+', label: "Années d'expérience" },
               { number: '4.9/5', label: 'Avis Google' },
             ].map((stat) => (
               <div key={stat.label} className="text-center">

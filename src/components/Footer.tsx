@@ -79,10 +79,11 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               {[
-                { href: '/#formations', label: 'Permis C\u00f4tier' },
-                { href: '/#formations', label: 'Permis Fluvial' },
-                { href: '/#formations', label: 'Pack C\u00f4tier + Fluvial' },
+                { href: '/#formations', label: 'Option C\u00f4ti\u00e8re' },
+                { href: '/#formations', label: 'Th\u00e9orie Eaux Int\u00e9rieures' },
+                { href: '/#formations', label: 'C\u00f4ti\u00e8re + Eaux Int\u00e9rieures' },
                 { href: '/#formations', label: 'Extension Hauturi\u00e8re' },
+                { href: '/#formations', label: 'Remise \u00e0 niveau' },
                 { href: '/#tarifs', label: 'Tous les tarifs' },
               ].map((link) => (
                 <li key={link.label}>

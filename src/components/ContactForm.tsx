@@ -232,11 +232,11 @@ export default function ContactForm() {
                         className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-ocean-500 focus:ring-2 focus:ring-ocean-500/20 transition-all outline-none bg-white"
                       >
                         <option value="">Choisir...</option>
-                        <option value="cotier">Permis C&ocirc;tier (299&euro;)</option>
-                        <option value="fluvial">Permis Fluvial (299&euro;)</option>
-                        <option value="pack">Pack C&ocirc;tier + Fluvial (449&euro;)</option>
-                        <option value="hauturier">Extension Hauturi&egrave;re (379&euro;)</option>
-                        <option value="extension-fluvial">Extension Fluviale (150&euro;)</option>
+                        <option value="cotier">Option C&ocirc;ti&egrave;re (445&euro;)</option>
+                        <option value="fluvial">Th&eacute;orie Eaux Int&eacute;rieures (225&euro;)</option>
+                        <option value="pack">C&ocirc;ti&egrave;re + Eaux Int&eacute;rieures (545&euro;)</option>
+                        <option value="hauturier">Extension Hauturi&egrave;re (420&euro;)</option>
+                        <option value="remise-a-niveau">Remise &agrave; niveau (90&euro;)</option>
                         <option value="info">Je veux juste des infos</option>
                       </select>
                     </div>

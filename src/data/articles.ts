@@ -137,7 +137,7 @@ export const articles: Article[] = [
 <ul>
 <li><strong>Zone de navigation</strong> : C\u00f4tier = mer + eaux int\u00e9rieures / Fluvial = eaux int\u00e9rieures uniquement</li>
 <li><strong>Nombre de questions \u00e0 l\u2019examen</strong> : C\u00f4tier = 40 QCM / Fluvial = 40 QCM</li>
-<li><strong>Tarif chez nous</strong> : C\u00f4tier = 299\u20ac / Fluvial = 299\u20ac</li>
+<li><strong>Tarif chez nous</strong> : Option c\u00f4ti\u00e8re = 445\u20ac / Th\u00e9orie eaux int\u00e9rieures = 225\u20ac</li>
 <li><strong>Dur\u00e9e de formation</strong> : Similaire pour les deux (5-8h th\u00e9orie + 3h30 pratique)</li>
 </ul>
 
@@ -145,9 +145,9 @@ export const articles: Article[] = [
 
 <p>Si vous h\u00e9sitez, <strong>prenez le c\u00f4tier</strong>. Il vous donne acc\u00e8s \u00e0 la mer ET aux eaux int\u00e9rieures. C\u2019est le permis le plus polyvalent. Et si vous naviguez principalement sur la Moselle, il sera tout aussi valable que le fluvial.</p>
 
-<p>Mieux encore : optez pour notre <strong>pack c\u00f4tier + fluvial \u00e0 449\u20ac</strong> pour avoir les deux permis et naviguer partout en France, y compris sur les grands cours d\u2019eau o\u00f9 le fluvial apporte des connaissances sp\u00e9cifiques (<a href="https://www.vnf.fr/" target="_blank" rel="noopener noreferrer">passage d\u2019\u00e9cluses, r\u00e8gles VNF</a>).</p>
+<p>Mieux encore : optez pour notre <strong>pack c\u00f4ti\u00e8re + eaux int\u00e9rieures \u00e0 545\u20ac</strong> pour avoir les deux permis et naviguer partout en France, y compris sur les grands cours d\u2019eau o\u00f9 le fluvial apporte des connaissances sp\u00e9cifiques (<a href="https://www.vnf.fr/" target="_blank" rel="noopener noreferrer">passage d\u2019\u00e9cluses, r\u00e8gles VNF</a>).</p>
 
-<blockquote>Bon \u00e0 savoir : si vous avez d\u00e9j\u00e0 le permis c\u00f4tier, l\u2019extension fluviale ne co\u00fbte que 150\u20ac chez Permis Bateau Metz.</blockquote>
+<blockquote>Bon \u00e0 savoir : si vous avez d\u00e9j\u00e0 le permis c\u00f4tier, la th\u00e9orie eaux int\u00e9rieures ne co\u00fbte que 225\u20ac chez Permis Bateau Metz.</blockquote>
 `,
   },
   {
@@ -294,10 +294,11 @@ export const articles: Article[] = [
 <p>Chez <strong>Permis Bateau Metz</strong>, nos tarifs sont parmi les plus comp\u00e9titifs :</p>
 
 <ul>
-<li>Permis c\u00f4tier : <strong>299\u20ac</strong></li>
-<li>Permis fluvial : <strong>299\u20ac</strong></li>
-<li>Pack c\u00f4tier + fluvial : <strong>449\u20ac</strong> (149\u20ac d\u2019\u00e9conomie)</li>
-<li>Extension hauturi\u00e8re : <strong>379\u20ac</strong></li>
+<li>Option c\u00f4ti\u00e8re : <strong>445\u20ac</strong></li>
+<li>Th\u00e9orie eaux int\u00e9rieures : <strong>225\u20ac</strong></li>
+<li>Option c\u00f4ti\u00e8re + eaux int\u00e9rieures : <strong>545\u20ac</strong></li>
+<li>Extension hauturi\u00e8re : <strong>420\u20ac</strong></li>
+<li>Remise \u00e0 niveau : <strong>90\u20ac</strong></li>
 </ul>
 
 <h3>2. Le timbre fiscal</h3>
@@ -314,16 +315,16 @@ export const articles: Article[] = [
 <h2>Budget total r\u00e9capitulatif</h2>
 
 <ul>
-<li><strong>Permis c\u00f4tier complet</strong> : 299\u20ac + 78\u20ac + 30\u20ac = <strong>407\u20ac</strong></li>
-<li><strong>Permis fluvial complet</strong> : 299\u20ac + 78\u20ac + 30\u20ac = <strong>407\u20ac</strong></li>
-<li><strong>Pack c\u00f4tier + fluvial</strong> : 449\u20ac + 156\u20ac + 60\u20ac = <strong>665\u20ac</strong></li>
-<li><strong>Hauturier</strong> : 379\u20ac + 38\u20ac = <strong>417\u20ac</strong> (pas de pratique \u00e0 l\u2019examen)</li>
+<li><strong>Option c\u00f4ti\u00e8re compl\u00e8te</strong> : 445\u20ac + 78\u20ac + 30\u20ac = <strong>553\u20ac</strong></li>
+<li><strong>Th\u00e9orie eaux int\u00e9rieures compl\u00e8te</strong> : 225\u20ac + 78\u20ac + 30\u20ac = <strong>333\u20ac</strong></li>
+<li><strong>C\u00f4ti\u00e8re + eaux int\u00e9rieures</strong> : 545\u20ac + 156\u20ac + 60\u20ac = <strong>761\u20ac</strong></li>
+<li><strong>Hauturier</strong> : 420\u20ac + 38\u20ac = <strong>458\u20ac</strong> (pas de pratique \u00e0 l\u2019examen)</li>
 </ul>
 
 <h2>Comment r\u00e9duire le co\u00fbt ?</h2>
 
 <h3>Prendre un pack combin\u00e9</h3>
-<p>Notre pack c\u00f4tier + fluvial \u00e0 449\u20ac vous fait \u00e9conomiser <strong>149\u20ac</strong> par rapport aux deux formations s\u00e9par\u00e9es.</p>
+<p>Notre formation c\u00f4ti\u00e8re + eaux int\u00e9rieures \u00e0 545\u20ac regroupe les deux options en un seul parcours complet.</p>
 
 <h3>Le CPF (Compte Personnel de Formation)</h3>
 <p>Certaines formations au permis bateau sont \u00e9ligibles au <a href="https://www.moncompteformation.gouv.fr/" target="_blank" rel="noopener noreferrer">CPF</a>. Renseignez-vous sur votre \u00e9ligibilit\u00e9.</p>
@@ -338,7 +339,7 @@ export const articles: Article[] = [
 <ul>
 <li>Auto-\u00e9coles g\u00e9n\u00e9ralistes : 300\u20ac \u00e0 420\u20ac par option</li>
 <li>Bateaux-\u00e9coles sp\u00e9cialis\u00e9es : 350\u20ac \u00e0 550\u20ac par option</li>
-<li><strong>Permis Bateau Metz : 299\u20ac par option</strong>, avec un rapport qualit\u00e9-prix imbattable</li>
+<li><strong>Permis Bateau Metz</strong> : des tarifs comp\u00e9titifs avec un enseignement de qualit\u00e9</li>
 </ul>
 
 <blockquote>Le prix ne doit pas \u00eatre le seul crit\u00e8re de choix. La qualit\u00e9 de l\u2019enseignement, le taux de r\u00e9ussite et l\u2019accompagnement sont essentiels. Chez Permis Bateau Metz, nous combinons les trois : prix comp\u00e9titif, 97% de r\u00e9ussite et suivi personnalis\u00e9.</blockquote>
@@ -349,7 +350,7 @@ export const articles: Article[] = [
     title: 'Stage permis bateau acc\u00e9l\u00e9r\u00e9 \u00e0 Metz : obtenez votre permis en un week-end',
     metaTitle: 'Stage Permis Bateau Acc\u00e9l\u00e9r\u00e9 Metz : Permis en 1 Week-end',
     metaDescription:
-      'Passez votre permis bateau en un week-end \u00e0 Metz gr\u00e2ce \u00e0 notre stage acc\u00e9l\u00e9r\u00e9. Formation intensive th\u00e9orie + pratique, examen rapide. D\u00e8s 299\u20ac.',
+      'Passez votre permis bateau en un week-end \u00e0 Metz gr\u00e2ce \u00e0 notre stage acc\u00e9l\u00e9r\u00e9. Formation intensive th\u00e9orie + pratique, examen rapide.',
     excerpt:
       'Press\u00e9 ? Notre stage acc\u00e9l\u00e9r\u00e9 permis bateau \u00e0 Metz vous permet de suivre la formation compl\u00e8te en un week-end et de passer l\u2019examen d\u00e8s la semaine suivante.',
     date: '2026-02-03',
