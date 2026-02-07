@@ -1,0 +1,24 @@
+{
+  "name": "Permis Bateau Metz",
+  "short_name": "Permis Bateau",
+  "description": "Centre de formation agréé permis bateau à Metz. Côtier, fluvial, hauturier.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0c2340",
+  "orientation": "portrait-primary",
+  "lang": "fr",
+  "categories": ["education", "navigation"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

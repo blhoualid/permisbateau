@@ -145,3 +145,49 @@
 .article-content blockquote {
   @apply border-l-4 border-ocean-500 pl-6 py-2 my-6 bg-ocean-50 rounded-r-lg italic text-gray-600;
 }
+
+/* Mobile touch targets (WCAG 2.2) */
+@media (pointer: coarse) {
+  a, button, [role="button"], select, input[type="submit"], input[type="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Scroll padding for sticky header */
+html {
+  scroll-padding-top: 80px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus visible */
+:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Print styles */
+@media print {
+  header, footer, nav, .no-print {
+    display: none !important;
+  }
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+  body {
+    font-size: 12pt;
+    color: #000;
+  }
+}
