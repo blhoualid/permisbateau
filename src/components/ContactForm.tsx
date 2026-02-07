@@ -302,7 +302,7 @@ export default function ContactForm() {
                   <p className="text-xs text-gray-400 text-center">
                     En soumettant ce formulaire, vous acceptez d&apos;&ecirc;tre recontact&eacute; par Permis Bateau Metz.
                     Vos donn&eacute;es sont trait&eacute;es conform&eacute;ment &agrave; notre{' '}
-                    <a href="/mentions-legales" className="underline hover:text-gray-600">
+                    <a href="/politique-de-confidentialite" className="underline hover:text-gray-600">
                       politique de confidentialit&eacute;
                     </a>.
                   </p>

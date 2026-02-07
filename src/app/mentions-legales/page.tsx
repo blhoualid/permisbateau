@@ -3,7 +3,8 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Mentions L\u00e9gales',
-  description: 'Mentions l\u00e9gales et politique de confidentialit\u00e9 du site Permis Bateau Metz.',
+  description:
+    'Mentions l\u00e9gales du site Permis Bateau Metz. Informations sur l\u2019\u00e9diteur, l\u2019h\u00e9bergeur, la propri\u00e9t\u00e9 intellectuelle et les conditions d\u2019utilisation.',
   robots: { index: false, follow: true },
 }
 
@@ -17,107 +18,119 @@ export default function MentionsLegales() {
               Accueil
             </Link>
             <span>/</span>
-            <span className="text-white/60">Mentions l&eacute;gales</span>
+            <span className="text-white/60">{"Mentions l\u00e9gales"}</span>
           </nav>
           <h1 className="font-heading text-4xl md:text-5xl font-bold text-white">
-            Mentions l&eacute;gales
+            {"Mentions l\u00e9gales"}
           </h1>
         </div>
       </section>
 
       <section className="section-padding bg-white">
         <div className="container-custom max-w-4xl prose prose-lg prose-gray">
-          <h2 className="font-heading text-2xl font-bold text-navy-900 mt-0">&Eacute;diteur du site</h2>
-          <p>
-            Le site <strong>permis-bateau-metz.fr</strong> est &eacute;dit&eacute; par :<br />
-            Permis Bateau Metz<br />
-            Port de Plaisance<br />
-            57000 Metz, France<br />
-            T&eacute;l&eacute;phone : 03 87 00 00 00<br />
-            Email : contact@permis-bateau-metz.fr
+          <p className="text-sm text-gray-500">
+            {"Derni\u00e8re mise \u00e0 jour : 1er janvier 2026"}
           </p>
 
-          <h2 className="font-heading text-2xl font-bold text-navy-900">H&eacute;bergeur</h2>
-          <p>
-            Ce site est h&eacute;berg&eacute; par :<br />
-            Hostinger International Ltd.<br />
-            61 Lordou Vironos Street<br />
-            6023 Larnaca, Chypre<br />
-            Site web : hostinger.fr
-          </p>
-
-          <h2 className="font-heading text-2xl font-bold text-navy-900">Propri&eacute;t&eacute; intellectuelle</h2>
-          <p>
-            L&apos;ensemble du contenu de ce site (textes, images, vid&eacute;os, graphismes, logo, ic&ocirc;nes, etc.) est
-            la propri&eacute;t&eacute; exclusive de Permis Bateau Metz, sauf mention contraire. Toute reproduction,
-            distribution, modification ou utilisation de ces contenus sans autorisation pr&eacute;alable &eacute;crite est
-            strictement interdite.
-          </p>
-
-          <h2 className="font-heading text-2xl font-bold text-navy-900">Limitation de responsabilit&eacute;</h2>
-          <p>
-            Les informations contenues sur ce site sont donn&eacute;es &agrave; titre indicatif. Permis Bateau Metz
-            s&apos;efforce de fournir des informations exactes et &agrave; jour, mais ne garantit pas l&apos;exhaustivit&eacute; ou
-            l&apos;exactitude des informations diffus&eacute;es. L&apos;&eacute;diteur ne saurait &ecirc;tre tenu responsable des erreurs,
-            d&apos;une absence de disponibilit&eacute; des informations ou de la pr&eacute;sence de virus sur le site.
-          </p>
-
-          <h2 className="font-heading text-2xl font-bold text-navy-900" id="confidentialite">
-            Politique de confidentialit&eacute; &amp; RGPD
+          <h2 className="font-heading text-2xl font-bold text-navy-900 mt-8">
+            {"1. \u00c9diteur du site"}
           </h2>
-
-          <h3 className="font-heading text-xl font-bold text-navy-800">Donn&eacute;es collect&eacute;es</h3>
           <p>
-            Lors de l&apos;utilisation du formulaire de contact, nous collectons les donn&eacute;es suivantes :
-            nom, pr&eacute;nom, adresse email, num&eacute;ro de t&eacute;l&eacute;phone, formation souhait&eacute;e et message. Ces donn&eacute;es
-            sont n&eacute;cessaires au traitement de votre demande de rappel.
-          </p>
-
-          <h3 className="font-heading text-xl font-bold text-navy-800">Finalit&eacute; du traitement</h3>
-          <p>Vos donn&eacute;es personnelles sont collect&eacute;es pour :</p>
-          <ul>
-            <li>R&eacute;pondre &agrave; votre demande de contact ou de rappel</li>
-            <li>Vous fournir des informations sur nos formations</li>
-            <li>G&eacute;rer votre inscription &eacute;ventuelle</li>
-          </ul>
-
-          <h3 className="font-heading text-xl font-bold text-navy-800">Dur&eacute;e de conservation</h3>
-          <p>
-            Vos donn&eacute;es sont conserv&eacute;es pendant une dur&eacute;e maximale de 3 ans &agrave; compter du dernier
-            contact. Elles sont ensuite supprim&eacute;es automatiquement.
-          </p>
-
-          <h3 className="font-heading text-xl font-bold text-navy-800">Vos droits</h3>
-          <p>
-            Conform&eacute;ment au R&egrave;glement G&eacute;n&eacute;ral sur la Protection des Donn&eacute;es (RGPD), vous disposez
-            des droits suivants :
+            {"Le site "}<strong>permis-bateau-metz.fr</strong>{" est \u00e9dit\u00e9 par :"}
           </p>
           <ul>
-            <li>Droit d&apos;acc&egrave;s &agrave; vos donn&eacute;es personnelles</li>
-            <li>Droit de rectification</li>
-            <li>Droit &agrave; l&apos;effacement (droit &agrave; l&apos;oubli)</li>
-            <li>Droit &agrave; la limitation du traitement</li>
-            <li>Droit &agrave; la portabilit&eacute; des donn&eacute;es</li>
-            <li>Droit d&apos;opposition</li>
+            <li><strong>{"Raison sociale"}</strong>{" : Permis Bateau Metz"}</li>
+            <li><strong>{"Forme juridique"}</strong>{" : [\u00c0 compl\u00e9ter]"}</li>
+            <li><strong>{"SIRET"}</strong>{" : [\u00c0 compl\u00e9ter]"}</li>
+            <li><strong>{"Num\u00e9ro d\u2019agr\u00e9ment"}</strong>{" : [\u00c0 compl\u00e9ter]"}</li>
+            <li><strong>{"Si\u00e8ge social"}</strong>{" : Port de Plaisance, 57000 Metz, France"}</li>
+            <li><strong>{"T\u00e9l\u00e9phone"}</strong>{" : 03 87 00 00 00"}</li>
+            <li><strong>{"Email"}</strong>{" : contact@permis-bateau-metz.fr"}</li>
+            <li><strong>{"Directeur de la publication"}</strong>{" : [\u00c0 compl\u00e9ter]"}</li>
           </ul>
+
+          <h2 className="font-heading text-2xl font-bold text-navy-900">
+            {"2. H\u00e9bergeur"}
+          </h2>
+          <p>{"Le site est h\u00e9berg\u00e9 par :"}</p>
+          <ul>
+            <li><strong>{"Raison sociale"}</strong>{" : Hostinger International Ltd."}</li>
+            <li><strong>{"Adresse"}</strong>{" : 61 Lordou Vironos Street, 6023 Larnaca, Chypre"}</li>
+            <li><strong>{"Site web"}</strong>{" : hostinger.fr"}</li>
+          </ul>
+
+          <h2 className="font-heading text-2xl font-bold text-navy-900">
+            {"3. Propri\u00e9t\u00e9 intellectuelle"}
+          </h2>
           <p>
-            Pour exercer ces droits, contactez-nous &agrave; :{' '}
+            {"L\u2019ensemble du contenu de ce site internet (textes, images, graphismes, logo, ic\u00f4nes, sons, logiciels, etc.) est la propri\u00e9t\u00e9 exclusive de Permis Bateau Metz ou de ses partenaires, et est prot\u00e9g\u00e9 par les lois fran\u00e7aises et internationales relatives \u00e0 la propri\u00e9t\u00e9 intellectuelle."}
+          </p>
+          <p>
+            {"Toute reproduction, repr\u00e9sentation, modification, publication, adaptation ou exploitation de tout ou partie des \u00e9l\u00e9ments du site, quel que soit le moyen ou le proc\u00e9d\u00e9 utilis\u00e9, est interdite sans l\u2019autorisation \u00e9crite pr\u00e9alable de Permis Bateau Metz."}
+          </p>
+          <p>
+            {"Toute exploitation non autoris\u00e9e du site ou de son contenu sera consid\u00e9r\u00e9e comme constitutive d\u2019une contrefa\u00e7on et poursuivie conform\u00e9ment aux articles L.335-2 et suivants du Code de la propri\u00e9t\u00e9 intellectuelle."}
+          </p>
+
+          <h2 className="font-heading text-2xl font-bold text-navy-900">
+            {"4. Limitation de responsabilit\u00e9"}
+          </h2>
+          <p>
+            {"Les informations contenues sur ce site sont aussi pr\u00e9cises que possible et le site est p\u00e9riodiquement mis \u00e0 jour, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes."}
+          </p>
+          <p>
+            {"Permis Bateau Metz ne pourra \u00eatre tenue responsable des dommages directs et indirects caus\u00e9s au mat\u00e9riel de l\u2019utilisateur, lors de l\u2019acc\u00e8s au site permis-bateau-metz.fr, et r\u00e9sultant soit de l\u2019utilisation d\u2019un mat\u00e9riel ne r\u00e9pondant pas aux sp\u00e9cifications techniques requises, soit de l\u2019apparition d\u2019un bug ou d\u2019une incompatibilit\u00e9."}
+          </p>
+          <p>
+            {"Permis Bateau Metz ne pourra \u00e9galement \u00eatre tenue responsable des dommages indirects cons\u00e9cutifs \u00e0 l\u2019utilisation du site."}
+          </p>
+
+          <h2 className="font-heading text-2xl font-bold text-navy-900">
+            {"5. Liens hypertextes"}
+          </h2>
+          <p>
+            {"Le site permis-bateau-metz.fr peut contenir des liens hypertextes vers d\u2019autres sites internet. Permis Bateau Metz ne dispose d\u2019aucun moyen de contr\u00f4le du contenu de ces sites tiers et n\u2019assume aucune responsabilit\u00e9 quant \u00e0 leur contenu, leurs pratiques ou leurs politiques de confidentialit\u00e9."}
+          </p>
+          <p>
+            {"La mise en place d\u2019un lien hypertexte vers le site permis-bateau-metz.fr n\u00e9cessite une autorisation pr\u00e9alable \u00e9crite. Toute demande peut \u00eatre adress\u00e9e \u00e0 contact@permis-bateau-metz.fr."}
+          </p>
+
+          <h2 className="font-heading text-2xl font-bold text-navy-900">
+            {"6. Cookies"}
+          </h2>
+          <p>
+            {"Le site permis-bateau-metz.fr utilise des cookies strictement n\u00e9cessaires au bon fonctionnement du site. Ces cookies techniques ne n\u00e9cessitent pas le consentement pr\u00e9alable de l\u2019utilisateur conform\u00e9ment \u00e0 la r\u00e9glementation en vigueur."}
+          </p>
+          <p>
+            {"Aucun cookie publicitaire, de suivi ou d\u2019analyse n\u2019est d\u00e9pos\u00e9 sans votre consentement explicite. Vous pouvez configurer votre navigateur pour refuser les cookies."}
+          </p>
+          <p>
+            {"Pour en savoir plus sur l\u2019utilisation de vos donn\u00e9es personnelles et vos droits, consultez notre "}
+            <Link href="/politique-de-confidentialite" className="text-ocean-600 hover:underline">
+              {"politique de confidentialit\u00e9"}
+            </Link>.
+          </p>
+
+          <h2 className="font-heading text-2xl font-bold text-navy-900">
+            {"7. Cr\u00e9dits"}
+          </h2>
+          <ul>
+            <li><strong>{"Conception et d\u00e9veloppement"}</strong>{" : Permis Bateau Metz"}</li>
+            <li><strong>{"H\u00e9bergement"}</strong>{" : Hostinger"}</li>
+            <li><strong>{"Photos"}</strong>{" : Pexels (licence libre)"}</li>
+          </ul>
+
+          <h2 className="font-heading text-2xl font-bold text-navy-900">
+            {"8. Droit applicable et juridiction"}
+          </h2>
+          <p>
+            {"Les pr\u00e9sentes mentions l\u00e9gales sont r\u00e9gies par le droit fran\u00e7ais. En cas de litige, les tribunaux de Metz seront seuls comp\u00e9tents."}
+          </p>
+          <p>
+            {"Pour toute question relative aux mentions l\u00e9gales du site, vous pouvez nous contacter \u00e0 l\u2019adresse : "}
             <a href="mailto:contact@permis-bateau-metz.fr" className="text-ocean-600 hover:underline">
               contact@permis-bateau-metz.fr
             </a>
-          </p>
-
-          <h2 className="font-heading text-2xl font-bold text-navy-900">Cookies</h2>
-          <p>
-            Ce site utilise des cookies techniques n&eacute;cessaires au bon fonctionnement du site.
-            Aucun cookie de suivi ou publicitaire n&apos;est utilis&eacute; sans votre consentement pr&eacute;alable.
-          </p>
-
-          <h2 className="font-heading text-2xl font-bold text-navy-900">Cr&eacute;dits</h2>
-          <p>
-            Conception et d&eacute;veloppement : Permis Bateau Metz<br />
-            H&eacute;bergement : Hostinger<br />
-            Framework : Next.js
           </p>
         </div>
       </section>

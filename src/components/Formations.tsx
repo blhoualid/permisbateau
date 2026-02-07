@@ -9,13 +9,13 @@ const formations = [
         <path d="M24 10 L28 22 H20 Z" className="fill-ocean-500" />
       </svg>
     ),
-    title: 'Permis Bateau - Option C\u00f4ti\u00e8re',
+    title: 'Permis Bateau - Option Côtière',
     description:
-      'Naviguez en mer jusqu\u2019\u00e0 6 milles d\u2019un abri et sur toutes les eaux int\u00e9rieures. Le permis le plus polyvalent.',
+      "Naviguez en mer jusqu'à 6 milles d'un abri et sur toutes les eaux intérieures. Le permis le plus polyvalent.",
     features: [
-      '5 \u00e0 8h de th\u00e9orie en salle ou e-learning',
+      '5 à 8h de théorie en salle ou e-learning',
       '3h30 de pratique sur la Moselle',
-      'Acc\u00e8s plateforme r\u00e9vision illimit\u00e9',
+      'Accès plateforme révision illimité',
       'Examen en centre La Poste',
     ],
     price: '445',
@@ -30,13 +30,13 @@ const formations = [
         <circle cx="34" cy="24" r="3" className="fill-ocean-500" />
       </svg>
     ),
-    title: 'Permis Bateau - Th\u00e9orie Eaux Int\u00e9rieures',
+    title: 'Permis Bateau - Théorie Eaux Intérieures',
     description:
-      'Sp\u00e9cialis\u00e9 pour les rivi\u00e8res, canaux et lacs. Id\u00e9al pour naviguer sur la Moselle et les voies navigables.',
+      'Spécialisé pour les rivières, canaux et lacs. Idéal pour naviguer sur la Moselle et les voies navigables.',
     features: [
-      '3 \u00e0 6h de th\u00e9orie sp\u00e9cifique',
-      '3h30 de pratique avec passage d\u2019\u00e9cluse',
-      'R\u00e9glementation eaux int\u00e9rieures',
+      '3 à 6h de théorie spécifique',
+      "3h30 de pratique avec passage d'écluse",
+      'Réglementation eaux intérieures',
       'Examen en centre La Poste',
     ],
     price: '225',
@@ -51,14 +51,14 @@ const formations = [
         <path d="M24 24 L32 16" className="stroke-ocean-700" strokeWidth="2" />
       </svg>
     ),
-    title: 'Permis Bateau - Extension Hauturi\u00e8re',
+    title: 'Permis Bateau - Extension Hauturière',
     description:
-      'Naviguez au-del\u00e0 des 6 milles, sans limite de distance. Navigation astronomique et m\u00e9t\u00e9o avanc\u00e9e.',
+      'Naviguez au-delà des 6 milles, sans limite de distance. Navigation astronomique et météo avancée.',
     features: [
-      'Formation th\u00e9orique approfondie',
-      'Navigation astronomique & \u00e9lectronique',
-      'M\u00e9t\u00e9o marine avanc\u00e9e',
-      'Examen th\u00e9orique uniquement',
+      'Formation théorique approfondie',
+      'Navigation astronomique & électronique',
+      'Météo marine avancée',
+      'Examen théorique uniquement',
     ],
     price: '420',
   },
@@ -71,14 +71,14 @@ const formations = [
         <path d="M18 28 L30 28" className="stroke-ocean-400" strokeWidth="1.5" />
       </svg>
     ),
-    title: 'Cours Pratique - Remise \u00e0 niveau',
+    title: 'Cours Pratique - Remise à niveau',
     description:
-      'Reprenez confiance sur l\u2019eau. S\u00e9ance de pratique encadr\u00e9e pour les titulaires de permis souhaitant se remettre \u00e0 niveau.',
+      "Reprenez confiance sur l'eau. Séance de pratique encadrée pour les titulaires de permis souhaitant se remettre à niveau.",
     features: [
       'Session individuelle ou petit groupe',
-      'Man\u0153uvres d\u2019accostage et appareillage',
-      'Rappels de s\u00e9curit\u00e9',
-      'Sur la Moselle, conditions r\u00e9elles',
+      "Manœuvres d'accostage et appareillage",
+      'Rappels de sécurité',
+      'Sur la Moselle, conditions réelles',
     ],
     price: '90',
   },
@@ -96,7 +96,7 @@ export default function Formations() {
             Choisissez votre permis bateau
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Des formations adapt\u00e9es \u00e0 vos projets de navigation. Th\u00e9orie, pratique et acc\u00e8s \u00e0 notre plateforme e-learning inclus.
+            Des formations adaptées à vos projets de navigation. Théorie, pratique et accès à notre plateforme e-learning inclus.
           </p>
         </div>
 
@@ -157,10 +157,10 @@ export default function Formations() {
           <div className="gradient-navy rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
               <h3 className="font-heading text-2xl md:text-3xl font-bold text-white mb-2">
-                Option C\u00f4ti\u00e8re + Eaux Int\u00e9rieures
+                {"Option Côtière + Eaux Intérieures"}
               </h3>
               <p className="text-white/70 max-w-md">
-                Les deux permis en une seule formation. Naviguez partout en France : mer, rivi\u00e8res, canaux et lacs.
+                {"Les deux permis en une seule formation. Naviguez partout en France\u00a0: mer, rivières, canaux et lacs."}
               </p>
             </div>
             <div className="text-center flex-shrink-0">

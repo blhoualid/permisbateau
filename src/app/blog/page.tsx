@@ -57,11 +57,10 @@ export default function BlogPage() {
             Blog
           </span>
           <h1 className="font-heading text-4xl md:text-5xl font-bold text-white mb-4">
-            Guides &amp; Conseils Nautiques
+            {"Guides & Conseils Nautiques"}
           </h1>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
-            Articles, guides pratiques et actualit\u00e9s pour pr\u00e9parer votre permis bateau
-            et naviguer en toute s\u00e9r\u00e9nit\u00e9.
+            {"Articles, guides pratiques et actualit\u00e9s pour pr\u00e9parer votre permis bateau et naviguer en toute s\u00e9r\u00e9nit\u00e9."}
           </p>
         </div>
       </section>
@@ -93,23 +92,13 @@ export default function BlogPage() {
                 href={`/blog/${article.slug}`}
                 className="card group"
               >
-                {/* Image placeholder */}
-                <div className="aspect-video bg-gradient-to-br from-ocean-100 to-navy-100 relative overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <svg
-                      className="w-16 h-16 text-ocean-300 group-hover:scale-110 transition-transform duration-300"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={1}
-                        d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
-                      />
-                    </svg>
-                  </div>
+                <div className="aspect-video relative overflow-hidden bg-gray-100">
+                  <img
+                    src={article.image}
+                    alt={article.imageAlt}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
                   <div className="absolute top-4 left-4">
                     <span className="bg-ocean-600 text-white text-xs font-bold px-3 py-1 rounded-full">
                       {article.category}
@@ -139,7 +128,7 @@ export default function BlogPage() {
                   </p>
 
                   <div className="mt-4 flex items-center gap-2 text-ocean-600 font-semibold text-sm">
-                    Lire l&apos;article
+                    {"Lire l'article"}
                     <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
@@ -155,10 +144,10 @@ export default function BlogPage() {
       <section className="section-padding bg-white">
         <div className="container-custom text-center">
           <h2 className="font-heading text-3xl font-bold text-navy-900 mb-4">
-            Pr&ecirc;t &agrave; vous lancer ?
+            {"Pr\u00eat \u00e0 vous lancer ?"}
           </h2>
           <p className="text-gray-600 mb-8 max-w-lg mx-auto">
-            Passez de la th&eacute;orie &agrave; la pratique. Inscrivez-vous &agrave; notre prochaine session de formation.
+            {"Passez de la th\u00e9orie \u00e0 la pratique. Inscrivez-vous \u00e0 notre formation."}
           </p>
           <Link href="/#contact" className="btn-primary">
             Demander un rappel gratuit

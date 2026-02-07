@@ -2,44 +2,44 @@ const temoignages = [
   {
     name: 'Sophie M.',
     location: 'Metz',
-    permis: 'Permis Côtier',
+    permis: 'Option Côtière',
     rating: 5,
-    text: 'Formation au top ! J\'ai eu mon permis côtier du premier coup grâce aux cours très bien structurés et à la pratique sur la Moselle. L\'équipe est super pédagogue et patiente. Je recommande à 100%.',
+    text: "Formation au top ! J'ai eu mon permis côtier du premier coup grâce aux cours très bien structurés et à la pratique sur la Moselle. L'équipe est super pédagogue et patiente. Je recommande à 100%.",
   },
   {
     name: 'Thomas L.',
     location: 'Longeville-lès-Metz',
-    permis: 'Pack Côtier + Fluvial',
+    permis: 'Côtière + Eaux Intérieures',
     rating: 5,
-    text: 'J\'ai pris le pack côtier + fluvial et c\'est un excellent rapport qualité-prix. Les cours du soir me convenaient parfaitement avec mon travail. La plateforme en ligne est très pratique pour réviser dans les transports.',
+    text: "J'ai pris la formation côtière + eaux intérieures et c'est un excellent rapport qualité-prix. Les cours du soir me convenaient parfaitement avec mon travail. La plateforme en ligne est très pratique pour réviser dans les transports.",
   },
   {
     name: 'Marie-Claire D.',
     location: 'Thionville',
-    permis: 'Permis Fluvial',
+    permis: 'Théorie Eaux Intérieures',
     rating: 5,
-    text: 'À 58 ans, je me suis lancée ! L\'accueil est chaleureux, les explications claires. La pratique sur la Moselle avec le passage d\'écluse m\'a donné confiance. Merci pour votre patience et votre professionnalisme.',
+    text: "À 58 ans, je me suis lancée ! L'accueil est chaleureux, les explications claires. La pratique sur la Moselle avec le passage d'écluse m'a donné confiance. Merci pour votre patience et votre professionnalisme.",
   },
   {
     name: 'Julien R.',
     location: 'Metz',
     permis: 'Stage Week-end',
     rating: 5,
-    text: 'Stage intensif le week-end : samedi théorie, dimanche pratique, et j\'avais mon permis la semaine suivante. Efficace, bien organisé et ambiance sympa. Parfait quand on n\'a pas le temps en semaine.',
+    text: "Stage intensif le week-end : samedi théorie, dimanche pratique, et j'avais mon permis la semaine suivante. Efficace, bien organisé et ambiance sympa. Parfait quand on n'a pas le temps en semaine.",
   },
   {
     name: 'Élodie et Marc B.',
     location: 'Woippy',
-    permis: 'Permis Côtier (x2)',
+    permis: 'Option Côtière (x2)',
     rating: 5,
-    text: 'On a passé le permis en couple, c\'était une super expérience ! Les cours en petit groupe permettent de bien progresser et on se sent vraiment accompagnés. On est prêts pour nos vacances en mer.',
+    text: "On a passé le permis en couple, c'était une super expérience ! Les cours en petit groupe permettent de bien progresser et on se sent vraiment accompagnés. On est prêts pour nos vacances en mer.",
   },
   {
     name: 'Pierre V.',
     location: 'Metz',
     permis: 'Extension Hauturière',
     rating: 5,
-    text: 'Après le côtier passé ici, j\'ai enchaîné avec l\'hauturière. La formation est sérieuse, les cours de navigation astronomique sont passionnants. Le formateur maîtrise son sujet et rend la matière accessible.',
+    text: "Après le côtier passé ici, j'ai enchaîné avec l'hauturière. La formation est sérieuse, les cours de navigation astronomique sont passionnants. Le formateur maîtrise son sujet et rend la matière accessible.",
   },
 ]
 
@@ -55,7 +55,7 @@ export default function Temoignages() {
             Ils ont obtenu leur permis avec nous
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Plus de 500 élèves formés. Découvrez leurs retours d&apos;expérience.
+            {"Plus de 500 élèves formés. Découvrez leurs retours d'expérience."}
           </p>
 
           <div className="flex items-center justify-center gap-2 mt-6">

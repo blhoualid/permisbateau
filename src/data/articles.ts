@@ -24,7 +24,7 @@ export const articles: Article[] = [
     date: '2026-01-15',
     readTime: '8 min',
     category: 'Guide',
-    image: '/blog/guide-permis-bateau-metz.jpg',
+    image: 'https://images.pexels.com/photos/1796705/pexels-photo-1796705.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Formation permis bateau sur la Moselle \u00e0 Metz',
     content: `
 <p>Passer son <strong>permis bateau \u00e0 Metz</strong> est une d\u00e9marche accessible \u00e0 tous, \u00e0 condition de bien se pr\u00e9parer. Que vous souhaitiez naviguer sur la Moselle, les lacs vosgiens ou partir en mer, ce guide vous accompagne pas \u00e0 pas.</p>
@@ -101,7 +101,7 @@ export const articles: Article[] = [
     date: '2026-01-28',
     readTime: '6 min',
     category: 'Conseils',
-    image: '/blog/cotier-vs-fluvial.jpg',
+    image: 'https://images.pexels.com/photos/4133413/pexels-photo-4133413.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Comparaison permis c\u00f4tier et fluvial',
     content: `
 <p>Vous souhaitez passer votre permis bateau mais vous h\u00e9sitez entre le <strong>permis c\u00f4tier</strong> et le <strong>permis fluvial</strong> ? Voici un comparatif d\u00e9taill\u00e9 pour vous aider \u00e0 faire le bon choix.</p>
@@ -161,7 +161,7 @@ export const articles: Article[] = [
     date: '2026-02-01',
     readTime: '5 min',
     category: 'Conseils',
-    image: '/blog/erreurs-permis-bateau.jpg',
+    image: 'https://images.pexels.com/photos/4384147/pexels-photo-4384147.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Conseils pour r\u00e9ussir l\u2019examen du permis bateau',
     content: `
 <p>Avec un <strong>taux de r\u00e9ussite national d\u2019environ 80%</strong>, l\u2019examen du permis bateau est loin d\u2019\u00eatre insurmontable. Pourtant, certaines erreurs reviennent r\u00e9guli\u00e8rement. Voici comment les \u00e9viter.</p>
@@ -210,7 +210,7 @@ export const articles: Article[] = [
     date: '2026-02-05',
     readTime: '7 min',
     category: 'Navigation',
-    image: '/blog/naviguer-moselle.jpg',
+    image: 'https://images.pexels.com/photos/15759842/pexels-photo-15759842.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Navigation sur la Moselle pr\u00e8s de Metz',
     content: `
 <p>La <strong>Moselle</strong> est l\u2019une des plus belles rivi\u00e8res navigables de France. De Metz \u00e0 Coblence en passant par Thionville et Trèves, elle offre des paysages magnifiques et une navigation vari\u00e9e.</p>
@@ -281,7 +281,7 @@ export const articles: Article[] = [
     date: '2026-01-20',
     readTime: '6 min',
     category: 'Tarifs',
-    image: '/blog/cout-permis-bateau.jpg',
+    image: 'https://images.pexels.com/photos/5466785/pexels-photo-5466785.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Tarifs et co\u00fbts du permis bateau en 2026',
     content: `
 <p>Le co\u00fbt total du permis bateau comprend plusieurs \u00e9l\u00e9ments. Voici le d\u00e9tail complet pour <strong>2026</strong>, avec nos tarifs \u00e0 Metz parmi les plus comp\u00e9titifs de la r\u00e9gion.</p>
@@ -356,7 +356,7 @@ export const articles: Article[] = [
     date: '2026-02-03',
     readTime: '5 min',
     category: 'Formations',
-    image: '/blog/stage-accelere-metz.jpg',
+    image: 'https://images.pexels.com/photos/12204727/pexels-photo-12204727.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Stage permis bateau acc\u00e9l\u00e9r\u00e9 le week-end \u00e0 Metz',
     content: `
 <p>Vous souhaitez obtenir votre <strong>permis bateau rapidement</strong> ? Notre stage acc\u00e9l\u00e9r\u00e9 \u00e0 Metz vous permet de suivre toute la formation en un seul week-end.</p>
@@ -432,7 +432,7 @@ export const articles: Article[] = [
     date: '2026-01-10',
     readTime: '7 min',
     category: 'R\u00e9glementation',
-    image: '/blog/reglementation-plaisance.jpg',
+    image: 'https://images.pexels.com/photos/9065471/pexels-photo-9065471.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'R\u00e9glementation du permis plaisance en France',
     content: `
 <p>La r\u00e9glementation du permis plaisance \u00e9volue r\u00e9guli\u00e8rement. Voici un point complet sur les <strong>r\u00e8gles en vigueur en 2026</strong> et ce qui a chang\u00e9 r\u00e9cemment.</p>

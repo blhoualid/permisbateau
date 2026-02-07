@@ -9,11 +9,10 @@ export default function Tarifs() {
             Tarifs transparents
           </span>
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-900 mb-4">
-            Le co&ucirc;t total, sans surprise
+            {"Le coût total, sans surprise"}
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Nous affichons tous les co&ucirc;ts : formation, timbre fiscal et frais d&apos;examen.
-            Paiement en 3 fois sans frais possible.
+            {"Nous affichons tous les coûts\u00a0: formation, timbre fiscal et frais d'examen. Paiement en 3 fois sans frais possible."}
           </p>
         </div>
 
@@ -41,35 +40,35 @@ export default function Tarifs() {
             <tbody>
               {[
                 {
-                  name: 'Option C\u00f4ti\u00e8re',
+                  name: 'Option Côtière',
                   formation: '445\u20ac',
                   timbre: '78\u20ac',
                   examen: '30\u20ac',
                   total: '553\u20ac',
                 },
                 {
-                  name: 'Th\u00e9orie Eaux Int\u00e9rieures',
+                  name: 'Théorie Eaux Intérieures',
                   formation: '225\u20ac',
                   timbre: '78\u20ac',
                   examen: '30\u20ac',
                   total: '333\u20ac',
                 },
                 {
-                  name: 'Option C\u00f4ti\u00e8re + Eaux Int\u00e9rieures',
+                  name: 'Option Côtière + Eaux Intérieures',
                   formation: '545\u20ac',
                   timbre: '156\u20ac',
                   examen: '60\u20ac',
                   total: '761\u20ac',
                 },
                 {
-                  name: 'Extension Hauturi\u00e8re',
+                  name: 'Extension Hauturière',
                   formation: '420\u20ac',
                   timbre: '38\u20ac',
                   examen: '\u2014',
                   total: '458\u20ac',
                 },
                 {
-                  name: 'Cours Pratique - Remise \u00e0 niveau',
+                  name: 'Cours Pratique - Remise à niveau',
                   formation: '90\u20ac',
                   timbre: '\u2014',
                   examen: '\u2014',
@@ -107,11 +106,10 @@ export default function Tarifs() {
 
         <div className="mt-10 text-center">
           <p className="text-gray-500 text-sm mb-6">
-            * Le timbre fiscal et les frais d&apos;examen sont fix&eacute;s par l&apos;&Eacute;tat.
-            Paiement de la formation en 3 fois sans frais sur demande.
+            {"* Le timbre fiscal et les frais d'examen sont fixés par l'État. Paiement de la formation en 3 fois sans frais sur demande."}
           </p>
           <Link href="#contact" className="btn-primary">
-            Demander un devis personnalis&eacute;
+            {"Demander un devis personnalisé"}
           </Link>
         </div>
       </div>

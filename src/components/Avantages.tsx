@@ -8,7 +8,7 @@ export default function Avantages() {
       ),
       title: '97% de réussite',
       description:
-        'Notre taux de réussite dès le premier passage est bien au-dessus de la moyenne nationale (80%). Notre méthode a fait ses preuves.',
+        "Notre taux de réussite dès le premier passage est bien au-dessus de la moyenne nationale (80%). Notre méthode a fait ses preuves.",
     },
     {
       icon: (
@@ -16,9 +16,9 @@ export default function Avantages() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
-      title: 'Paiement facilit\u00e9',
+      title: 'Paiement facilité',
       description:
-        'Paiement en 3 fois sans frais pour toutes nos formations. Plusieurs formules pour s\u2019adapter \u00e0 votre budget.',
+        "Paiement en 3 fois sans frais pour toutes nos formations. Plusieurs formules pour s'adapter à votre budget.",
     },
     {
       icon: (
@@ -28,7 +28,7 @@ export default function Avantages() {
       ),
       title: 'E-learning illimité',
       description:
-        'Accédez à notre plateforme de révision 24h/24 avec plus de 600 questions, des fiches de cours et un suivi de progression.',
+        "Accédez à notre plateforme de révision 24h/24 avec plus de 600 questions, des fiches de cours et un suivi de progression.",
     },
     {
       icon: (
@@ -39,7 +39,7 @@ export default function Avantages() {
       ),
       title: 'Pratique sur la Moselle',
       description:
-        'Formation pratique au port de plaisance de Metz. Conditions réelles : écluses, courant, trafic fluvial. Vous serez prêt.',
+        "Formation pratique au port de plaisance de Metz. Conditions réelles : écluses, courant, trafic fluvial. Vous serez prêt.",
     },
     {
       icon: (
@@ -49,7 +49,7 @@ export default function Avantages() {
       ),
       title: 'Stages week-end',
       description:
-        'Emploi du temps chargé ? Notre stage intensif en un week-end vous permet d\'obtenir votre permis rapidement.',
+        "Emploi du temps chargé ? Notre stage intensif en un week-end vous permet d'obtenir votre permis rapidement.",
     },
     {
       icon: (
@@ -59,13 +59,12 @@ export default function Avantages() {
       ),
       title: 'Petits groupes',
       description:
-        'Maximum 10 élèves par session pour un accompagnement personnalisé. Votre formateur connaît votre niveau et s\'adapte.',
+        "Maximum 10 élèves par session pour un accompagnement personnalisé. Votre formateur connaît votre niveau et s'adapte.",
     },
   ]
 
   return (
     <section id="avantages" className="section-padding gradient-navy relative overflow-hidden">
-      {/* Decorations */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-ocean-500/10 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl" />
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-ocean-400/10 rounded-full translate-x-1/3 translate-y-1/3 blur-3xl" />
 
@@ -75,11 +74,10 @@ export default function Avantages() {
             Pourquoi nous choisir
           </span>
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-white mb-4">
-            L&apos;excellence nautique à Metz
+            {"L'excellence nautique à Metz"}
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
-            Un centre de formation agréé qui place la réussite et la satisfaction de ses élèves au
-            premier plan.
+            {"Un centre de formation agréé qui place la réussite et la satisfaction de ses élèves au premier plan."}
           </p>
         </div>
 
