@@ -31,7 +31,7 @@ export const articles: Article[] = [
 
 <h2>Les diff\u00e9rents types de permis bateau</h2>
 
-<p>En France, il existe plusieurs cat\u00e9gories de permis plaisance, r\u00e9glement\u00e9es par le <a href="https://www.ecologie.gouv.fr/politiques-publiques/permis-plaisance" target="_blank" rel="noopener noreferrer">Minist\u00e8re de la Transition \u00c9cologique</a> :</p>
+<p>En France, il existe plusieurs cat\u00e9gories de permis plaisance, r\u00e9glement\u00e9es par le <a href="https://www.ecologie.gouv.fr/permis-plaisance-permis-conduire-bateaux-plaisance-moteur" target="_blank" rel="noopener noreferrer">Minist\u00e8re de la Transition \u00c9cologique</a> :</p>
 
 <ul>
 <li><strong>Le permis c\u00f4tier</strong> : obligatoire pour piloter un bateau \u00e0 moteur de plus de 6 chevaux en mer, jusqu\u2019\u00e0 6 milles d\u2019un abri.</li>
@@ -72,7 +72,7 @@ export const articles: Article[] = [
 
 <p>Depuis la r\u00e9forme de 2022, l\u2019<strong>examen th\u00e9orique se passe dans un centre agr\u00e9\u00e9 La Poste</strong>, comme le code de la route. Des sessions sont disponibles presque tous les jours \u00e0 Metz et alentours.</p>
 
-<p>L\u2019\u00e9preuve consiste en un <strong>QCM de 40 questions</strong> avec un maximum de 5 erreurs autoris\u00e9es. Le r\u00e9sultat est disponible sous 48h sur le site <a href="https://www.permisplaisance.gouv.fr/" target="_blank" rel="noopener noreferrer">permisplaisance.gouv.fr</a>.</p>
+<p>L\u2019\u00e9preuve consiste en un <strong>QCM de 40 questions</strong> avec un maximum de 5 erreurs autoris\u00e9es. Le r\u00e9sultat est disponible sous 48h sur le site <a href="https://lecode.laposte.fr/bateau/faq" target="_blank" rel="noopener noreferrer">Le Code avec La Poste</a>.</p>
 
 <h2>Combien de temps faut-il ?</h2>
 
@@ -146,7 +146,7 @@ export const articles: Article[] = [
 
 <h2>Le permis fluvial : sp\u00e9cialiste des eaux int\u00e9rieures</h2>
 
-<p>Le <strong>permis eaux int\u00e9rieures</strong> (appel\u00e9 aussi permis fluvial) est d\u00e9di\u00e9 \u00e0 la navigation sur le r\u00e9seau de <a href="https://www.vnf.fr/vnf/les-voies-navigables/" target="_blank" rel="noopener noreferrer">voies navigables de France (VNF)</a> :</p>
+<p>Le <strong>permis eaux int\u00e9rieures</strong> (appel\u00e9 aussi permis fluvial) est d\u00e9di\u00e9 \u00e0 la navigation sur le r\u00e9seau de <a href="https://www.vnf.fr/vnf/services/votre-kit-cartographique-de-la-logistique-fluviale/" target="_blank" rel="noopener noreferrer">voies navigables de France (VNF)</a> :</p>
 
 <ul>
 <li>Rivi\u00e8res navigables (Moselle, Rhin, Seine, etc.)</li>
@@ -224,7 +224,7 @@ export const articles: Article[] = [
 <li>La r\u00e8gle du \u00ab b\u00e2bord amure \u00bb s\u2019applique entre voiliers</li>
 </ul>
 
-<p>Le <a href="https://www.ecologie.gouv.fr/politiques-publiques/reglementation-plaisance" target="_blank" rel="noopener noreferrer">R\u00e8glement International pour Pr\u00e9venir les Abordages en Mer (RIPAM)</a> est votre r\u00e9f\u00e9rence.</p>
+<p>Le <a href="https://www.ecologie.gouv.fr/permis-plaisance-permis-conduire-bateaux-plaisance-moteur" target="_blank" rel="noopener noreferrer">R\u00e8glement International pour Pr\u00e9venir les Abordages en Mer (RIPAM)</a> est votre r\u00e9f\u00e9rence.</p>
 
 <h2>Erreur n\u00b03 : Ne pas assez s\u2019entra\u00eener en ligne</h2>
 
@@ -252,7 +252,7 @@ export const articles: Article[] = [
 
 <h2>Que faire en cas d\u2019\u00e9chec ?</h2>
 
-<p>Si malgr\u00e9 vos efforts vous ne r\u00e9ussissez pas du premier coup, ne vous d\u00e9couragez pas. Vous pouvez repasser l\u2019examen aussi souvent que n\u00e9cessaire. Les frais d\u2019inscription \u00e0 une nouvelle session sont de <strong>30\u20ac</strong>. Analysez les th\u00e8mes o\u00f9 vous avez fait le plus d\u2019erreurs (le r\u00e9capitulatif est disponible en ligne sur <a href="https://www.permisplaisance.gouv.fr/" target="_blank" rel="noopener noreferrer">permisplaisance.gouv.fr</a>) et concentrez vos r\u00e9visions sur ces points faibles avant de vous repr\u00e9senter. La plupart des candidats qui \u00e9chouent la premi\u00e8re fois r\u00e9ussissent d\u00e8s la deuxi\u00e8me tentative.</p>
+<p>Si malgr\u00e9 vos efforts vous ne r\u00e9ussissez pas du premier coup, ne vous d\u00e9couragez pas. Vous pouvez repasser l\u2019examen aussi souvent que n\u00e9cessaire. Les frais d\u2019inscription \u00e0 une nouvelle session sont de <strong>30\u20ac</strong>. Analysez les th\u00e8mes o\u00f9 vous avez fait le plus d\u2019erreurs (le r\u00e9capitulatif est disponible en ligne sur <a href="https://lecode.laposte.fr/bateau/faq" target="_blank" rel="noopener noreferrer">Le Code avec La Poste</a>) et concentrez vos r\u00e9visions sur ces points faibles avant de vous repr\u00e9senter. La plupart des candidats qui \u00e9chouent la premi\u00e8re fois r\u00e9ussissent d\u00e8s la deuxi\u00e8me tentative.</p>
 
 <blockquote>Le taux de r\u00e9ussite national au permis bateau d\u00e9passe 80%. Avec une pr\u00e9paration s\u00e9rieuse, des cours clairs et un entra\u00eenement r\u00e9gulier en ligne, les candidats bien accompagn\u00e9s r\u00e9ussissent g\u00e9n\u00e9ralement d\u00e8s le premier passage.</blockquote>
 `,
@@ -512,9 +512,9 @@ export const articles: Article[] = [
 
 <h2>L\u2019examen apr\u00e8s le stage</h2>
 
-<p>L\u2019examen th\u00e9orique peut \u00eatre pass\u00e9 d\u00e8s le lundi suivant le stage, dans un <a href="https://www.laposte.fr/examen-permis-bateau" target="_blank" rel="noopener noreferrer">centre d\u2019examen La Poste</a> \u00e0 Metz ou alentours. Les sessions sont disponibles quasiment tous les jours. La plupart des formateurs recommandent de passer l\u2019examen dans les <strong>3 \u00e0 5 jours suivant le stage</strong>, tant que les connaissances sont fra\u00eeches. Continuez vos r\u00e9visions en ligne entre le stage et l\u2019examen pour maintenir votre niveau.</p>
+<p>L\u2019examen th\u00e9orique peut \u00eatre pass\u00e9 d\u00e8s le lundi suivant le stage, dans un <a href="https://www.lecode.laposte.fr/bateau/" target="_blank" rel="noopener noreferrer">centre d\u2019examen La Poste</a> \u00e0 Metz ou alentours. Les sessions sont disponibles quasiment tous les jours. La plupart des formateurs recommandent de passer l\u2019examen dans les <strong>3 \u00e0 5 jours suivant le stage</strong>, tant que les connaissances sont fra\u00eeches. Continuez vos r\u00e9visions en ligne entre le stage et l\u2019examen pour maintenir votre niveau.</p>
 
-<p>Le r\u00e9sultat est communiqu\u00e9 sous 48 heures sur <a href="https://www.permisplaisance.gouv.fr/" target="_blank" rel="noopener noreferrer">permisplaisance.gouv.fr</a>. En cas de r\u00e9ussite, votre permis d\u00e9finitif vous sera envoy\u00e9 par courrier dans les semaines qui suivent. En attendant, l\u2019attestation de r\u00e9ussite vous permet d\u00e9j\u00e0 de naviguer l\u00e9galement.</p>
+<p>Le r\u00e9sultat est communiqu\u00e9 sous 48 heures sur <a href="https://lecode.laposte.fr/bateau/faq" target="_blank" rel="noopener noreferrer">Le Code avec La Poste</a>. En cas de r\u00e9ussite, votre permis d\u00e9finitif vous sera envoy\u00e9 par courrier dans les semaines qui suivent. En attendant, l\u2019attestation de r\u00e9ussite vous permet d\u00e9j\u00e0 de naviguer l\u00e9galement.</p>
 
 <blockquote>La majorit\u00e9 des candidats en stage acc\u00e9l\u00e9r\u00e9 r\u00e9ussissent l\u2019examen du premier coup. Le secret ? Une pr\u00e9paration en amont via l\u2019e-learning, une formation intensive en petit groupe et un formateur d\u00e9di\u00e9 qui s\u2019assure que chaque participant a bien compris les points essentiels.</blockquote>
 `,
@@ -553,12 +553,12 @@ export const articles: Article[] = [
 <li>L\u2019examen se passe d\u00e9sormais dans des <strong>centres agr\u00e9\u00e9s La Poste</strong> (et non plus dans les Affaires Maritimes)</li>
 <li>Format : <strong>40 questions QCM</strong>, 5 erreurs maximum</li>
 <li>Sessions disponibles presque <strong>tous les jours</strong></li>
-<li>R\u00e9sultat sous <strong>48h</strong> sur <a href="https://www.permisplaisance.gouv.fr/" target="_blank" rel="noopener noreferrer">permisplaisance.gouv.fr</a></li>
+<li>R\u00e9sultat sous <strong>48h</strong> sur <a href="https://lecode.laposte.fr/bateau/faq" target="_blank" rel="noopener noreferrer">Le Code avec La Poste</a></li>
 </ul>
 
 <h2>\u00c9quipements de s\u00e9curit\u00e9 obligatoires</h2>
 
-<p>Selon la <a href="https://www.ecologie.gouv.fr/politiques-publiques/equipements-securite-navires-plaisance" target="_blank" rel="noopener noreferrer">division 240 de la r\u00e9glementation</a>, voici les \u00e9quipements obligatoires :</p>
+<p>Selon la <a href="https://www.ecologie.gouv.fr/fiches-dinformation-et-editions-navigation-plaisance-et-des-loisirs-nautiques" target="_blank" rel="noopener noreferrer">division 240 de la r\u00e9glementation</a>, voici les \u00e9quipements obligatoires :</p>
 
 <h3>Navigation basique (jusqu\u2019\u00e0 2 milles)</h3>
 <ul>
