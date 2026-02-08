@@ -67,8 +67,10 @@ export default function Footer() {
               {[
                 { href: '/#comment-ca-marche', label: 'Comment \u00e7a marche' },
                 { href: '/blog', label: 'Blog & guides' },
+                { href: '/blog/stage-permis-bateau-accelere-metz-weekend', label: 'Stage acc\u00e9l\u00e9r\u00e9 week-end' },
+                { href: '/blog/combien-coute-permis-bateau-2026-tarifs-financements', label: 'Prix du permis bateau 2026' },
+                { href: '/blog/reglementation-permis-plaisance-france-2026', label: 'R\u00e9glementation plaisance' },
                 { href: '/#faq', label: 'Questions fr\u00e9quentes' },
-                { href: '/#avantages', label: 'Pourquoi passer par nous' },
                 { href: '/mentions-legales', label: 'Mentions l\u00e9gales' },
                 { href: '/politique-de-confidentialite', label: 'Politique de confidentialit\u00e9' },
               ].map((link) => (

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { articles } from '@/data/articles'
 
 export const metadata: Metadata = {
-  title: 'Blog Permis Bateau Metz | Conseils, Guides et Actualit\u00e9s',
+  title: 'Blog \u2014 Guides et Conseils Nautiques',
   description:
     'Retrouvez nos articles, guides et conseils pour r\u00e9ussir votre permis bateau \u00e0 Metz. R\u00e9glementation, tarifs, astuces de navigation sur la Moselle.',
   alternates: {

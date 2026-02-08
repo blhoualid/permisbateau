@@ -76,8 +76,11 @@ export default function Avantages() {
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-white mb-4">
             {"Votre recherche simplifi\u00e9e"}
           </h2>
-          <p className="text-white/60 text-lg max-w-2xl mx-auto">
+          <p className="text-white/60 text-lg max-w-2xl mx-auto mb-4">
             {"Une plateforme ind\u00e9pendante qui vous aide \u00e0 trouver la formation permis bateau id\u00e9ale \u00e0 Metz et en Moselle."}
+          </p>
+          <p className="text-white/40 text-base max-w-3xl mx-auto">
+            {"Nous s\u00e9lectionnons uniquement des centres disposant d\u2019un agr\u00e9ment pr\u00e9fectoral et v\u00e9rifions r\u00e9guli\u00e8rement la qualit\u00e9 de leurs formations. Notre objectif\u00a0: vous faire gagner du temps en centralisant les informations et en vous orientant vers le centre le mieux adapt\u00e9 \u00e0 votre projet, votre budget et votre emploi du temps."}
           </p>
         </div>
 

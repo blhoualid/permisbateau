@@ -95,8 +95,11 @@ export default function Formations() {
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-900 mb-4">
             Quel permis bateau choisir ?
           </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-4">
             {"Comparez les diff\u00e9rentes formules propos\u00e9es par les centres agr\u00e9\u00e9s de la r\u00e9gion de Metz. Tarifs indicatifs constat\u00e9s en Moselle."}
+          </p>
+          <p className="text-gray-500 text-base max-w-3xl mx-auto">
+            {"Chaque formation inclut des cours th\u00e9oriques en salle ou en e-learning, une s\u00e9ance pratique sur la Moselle avec un moniteur dipl\u00f4m\u00e9 et l\u2019acc\u00e8s \u00e0 une plateforme de r\u00e9vision en ligne. L\u2019examen th\u00e9orique se passe dans un centre La Poste agr\u00e9\u00e9, disponible presque tous les jours \u00e0 Metz."}
           </p>
         </div>
 
@@ -176,7 +179,21 @@ export default function Formations() {
           </div>
         </div>
 
-        <p className="text-center text-gray-400 text-xs mt-8">
+        <div className="text-center mt-10 flex flex-wrap justify-center gap-4">
+          <Link href="/blog/combien-coute-permis-bateau-2026-tarifs-financements" className="text-ocean-600 hover:text-ocean-700 text-sm font-medium underline">
+            {"D\u00e9tail complet des tarifs 2026"}
+          </Link>
+          <span className="text-gray-300">|</span>
+          <Link href="/blog/stage-permis-bateau-accelere-metz-weekend" className="text-ocean-600 hover:text-ocean-700 text-sm font-medium underline">
+            {"Stage acc\u00e9l\u00e9r\u00e9 en un week-end"}
+          </Link>
+          <span className="text-gray-300">|</span>
+          <Link href="/blog/permis-cotier-ou-fluvial-lequel-choisir" className="text-ocean-600 hover:text-ocean-700 text-sm font-medium underline">
+            {"C\u00f4tier ou fluvial : lequel choisir ?"}
+          </Link>
+        </div>
+
+        <p className="text-center text-gray-400 text-xs mt-4">
           {"* Tarifs indicatifs constat\u00e9s aupr\u00e8s des centres agr\u00e9\u00e9s de Metz et environs. Les prix peuvent varier selon le centre partenaire."}
         </p>
       </div>

@@ -1,0 +1,29 @@
+# Permis Bateau Metz
+
+> Plateforme independante d'information et de mise en relation pour le permis bateau a Metz et en Moselle (57). Service gratuit qui oriente les candidats vers des centres de formation agrees.
+
+Permis Bateau Metz est un site web independant qui aide les particuliers a trouver une formation au permis plaisance (cotier, fluvial, hauturier) dans la region de Metz, en Moselle. Le site propose des informations sur les formations disponibles, les tarifs indicatifs, la reglementation et des guides pratiques. Il ne s'agit pas d'une ecole de navigation : le site met en relation les candidats avec des centres de formation partenaires agrees par la prefecture.
+
+## Pages principales
+
+- [Accueil](https://permis-bateau-metz.fr/): Comparateur de formations permis bateau a Metz avec tarifs indicatifs, formulaire de mise en relation gratuite et FAQ
+- [Blog](https://permis-bateau-metz.fr/blog): Articles, guides pratiques et actualites sur le permis bateau et la navigation en Moselle
+
+## Guides et articles
+
+- [Guide complet du permis bateau a Metz](https://permis-bateau-metz.fr/blog/comment-passer-permis-bateau-metz-guide-complet): Toutes les etapes pour obtenir son permis bateau a Metz en 2026 — demarches, documents, epreuves, tarifs et conseils
+- [Permis cotier ou fluvial : lequel choisir](https://permis-bateau-metz.fr/blog/permis-cotier-ou-fluvial-lequel-choisir): Comparatif detaille entre le permis cotier et le permis fluvial — differences, avantages, tarifs
+- [5 erreurs a eviter au permis bateau](https://permis-bateau-metz.fr/blog/5-erreurs-eviter-examen-permis-bateau): Les erreurs les plus frequentes a l'examen du permis bateau et conseils pour les eviter
+- [Naviguer sur la Moselle](https://permis-bateau-metz.fr/blog/naviguer-sur-la-moselle-guide-pratique): Guide pratique pour naviguer sur la Moselle — ecluses, itineraires au depart de Metz, securite, ports
+- [Prix du permis bateau 2026](https://permis-bateau-metz.fr/blog/combien-coute-permis-bateau-2026-tarifs-financements): Detail des couts — formation, timbre fiscal, examen — et options de financement
+- [Stage accelere permis bateau a Metz](https://permis-bateau-metz.fr/blog/stage-permis-bateau-accelere-metz-weekend): Formation intensive en un week-end — programme, deroulement, conseils
+- [Reglementation du permis plaisance 2026](https://permis-bateau-metz.fr/blog/reglementation-permis-plaisance-france-2026): Regles en vigueur, equipements obligatoires, sanctions, assurance, navigation a l'etranger
+
+## Informations cles
+
+- Zone couverte : Metz, Moselle (57), Grand Est
+- Types de permis : cotier, fluvial (eaux interieures), extension hauturiere
+- Tarifs indicatifs : cotier des 445 EUR, fluvial des 225 EUR, pack des 545 EUR
+- Examen theorique : QCM de 40 questions en centre La Poste agree
+- Permis valable a vie, age minimum 16 ans
+- Contact : contact@permis-bateau-metz.fr

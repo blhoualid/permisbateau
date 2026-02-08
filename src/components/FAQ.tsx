@@ -1,8 +1,9 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 
-const faqs = [
+const faqs: { question: string; answer: string; link?: { href: string; label: string } }[] = [
   {
     question: 'Quel \u00e2ge faut-il pour passer le permis bateau ?',
     answer:
@@ -12,6 +13,7 @@ const faqs = [
     question: 'Combien de temps dure la formation ?',
     answer:
       "La formation th\u00e9orique dure entre 5 et 8 heures selon la formule choisie (cours du soir ou stage week-end). La pratique dure g\u00e9n\u00e9ralement 3h30 sur bateau. Au total, comptez 2 \u00e0 3 semaines entre l'inscription et l'obtention du permis, ou un seul week-end avec un stage acc\u00e9l\u00e9r\u00e9.",
+    link: { href: '/blog/stage-permis-bateau-accelere-metz-weekend', label: 'En savoir plus sur le stage acc\u00e9l\u00e9r\u00e9 permis bateau' },
   },
   {
     question: "Comment se passe l'examen ?",
@@ -27,6 +29,7 @@ const faqs = [
     question: 'Votre service est-il payant ?',
     answer:
       "Non, notre service de mise en relation est enti\u00e8rement gratuit pour vous. Nous sommes une plateforme ind\u00e9pendante qui vous aide \u00e0 trouver un centre de formation agr\u00e9\u00e9 en Moselle. Vous payez uniquement la formation, directement aupr\u00e8s du centre partenaire.",
+    link: { href: '/blog/combien-coute-permis-bateau-2026-tarifs-financements', label: 'D\u00e9couvrir tous les tarifs du permis bateau 2026' },
   },
   {
     question: 'Faut-il un certificat m\u00e9dical ?',
@@ -37,11 +40,13 @@ const faqs = [
     question: 'Quelle est la validit\u00e9 du permis bateau ?',
     answer:
       "Le permis bateau est valable \u00e0 vie. Il n'y a pas de renouvellement \u00e0 effectuer, contrairement au permis de conduire. Une fois obtenu, il est d\u00e9finitif.",
+    link: { href: '/blog/reglementation-permis-plaisance-france-2026', label: 'Tout savoir sur la r\u00e9glementation du permis plaisance' },
   },
   {
     question: 'Comment choisir entre les diff\u00e9rents permis ?',
     answer:
       "Tout d\u00e9pend de votre usage : le permis c\u00f4tier est le plus polyvalent (mer + rivi\u00e8res), le permis fluvial est id\u00e9al pour la Moselle et les canaux, et l'extension hauturi\u00e8re est n\u00e9cessaire pour naviguer au large sans limite de distance. Notre plateforme vous aide \u00e0 comparer les formules.",
+    link: { href: '/blog/permis-cotier-ou-fluvial-lequel-choisir', label: 'Lire notre comparatif c\u00f4tier vs fluvial' },
   },
 ]
 
@@ -116,9 +121,17 @@ export default function FAQ() {
                   openIndex === index ? 'max-h-96' : 'max-h-0'
                 }`}
               >
-                <p className="px-6 pb-6 text-gray-600 leading-relaxed">
-                  {faq.answer}
-                </p>
+                <div className="px-6 pb-6">
+                  <p className="text-gray-600 leading-relaxed">
+                    {faq.answer}
+                  </p>
+                  {faq.link && (
+                    <Link href={faq.link.href} className="inline-flex items-center gap-1 text-ocean-600 hover:text-ocean-700 text-sm font-medium mt-2">
+                      {faq.link.label}
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                    </Link>
+                  )}
+                </div>
               </div>
             </div>
           ))}

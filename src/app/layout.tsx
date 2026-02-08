@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { PostHogProvider } from '@/components/PostHogProvider'
 
 export const viewport: Viewport = {
   themeColor: '#0c2340',
@@ -15,7 +14,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://permis-bateau-metz.fr'),
   title: {
-    default: 'Permis Bateau Metz | Comparez les formations permis c\u00f4tier, fluvial & hauturier',
+    default: 'Permis Bateau Metz | Formations c\u00f4tier, fluvial & hauturier',
     template: '%s | Permis Bateau Metz',
   },
   description:
@@ -48,7 +47,7 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     url: 'https://permis-bateau-metz.fr',
     siteName: 'Permis Bateau Metz',
-    title: 'Permis Bateau Metz | Comparez les formations et recevez un devis gratuit',
+    title: 'Permis Bateau Metz | Comparez et recevez un devis gratuit',
     description:
       'Plateforme ind\u00e9pendante d\u2019orientation permis bateau \u00e0 Metz. Comparez les formules c\u00f4tier, fluvial, hauturier et soyez rappel\u00e9 gratuitement par un centre agr\u00e9\u00e9.',
     images: [
@@ -169,6 +168,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
         {/* End Google Tag Manager */}
+        {/* PostHog */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `!function(){var s=document.createElement("script");s.async=!0,s.src="https://eu-assets.i.posthog.com/static/array.js",s.onload=function(){posthog.init("phc_QqF3iphmW2qFd6sBP1XmnQkNDcdPs0jmu9Zwe1Lgtei",{api_host:"https://eu.i.posthog.com",person_profiles:"identified_only"})},document.head.appendChild(s)}();`,
+          }}
+        />
+        {/* End PostHog */}
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.ico" sizes="48x48" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -200,11 +206,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {/* End Google Tag Manager (noscript) */}
-        <PostHogProvider>
-          <Header />
-          <main>{children}</main>
-          <Footer />
-        </PostHogProvider>
+        <Header />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )
