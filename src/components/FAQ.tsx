@@ -100,21 +100,9 @@ export default function FAQ() {
                 <span className="font-semibold text-navy-900 pr-8">
                   {faq.question}
                 </span>
-                <svg
-                  className={`w-5 h-5 text-ocean-600 flex-shrink-0 transition-transform duration-300 ${
-                    openIndex === index ? 'rotate-180' : ''
-                  }`}
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
+                <span className={`text-ocean-600 flex-shrink-0 transition-transform duration-300 text-lg ${openIndex === index ? 'rotate-180' : ''}`}>
+                  {"\u25BE"}
+                </span>
               </button>
               <div
                 className={`overflow-hidden transition-all duration-300 ${
@@ -127,8 +115,7 @@ export default function FAQ() {
                   </p>
                   {faq.link && (
                     <Link href={faq.link.href} className="inline-flex items-center gap-1 text-ocean-600 hover:text-ocean-700 text-sm font-medium mt-2">
-                      {faq.link.label}
-                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                      {faq.link.label} {"\u2192"}
                     </Link>
                   )}
                 </div>

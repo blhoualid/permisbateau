@@ -208,15 +208,11 @@ export default async function ArticlePage({ params }: PageProps) {
                   </h4>
                   <ul className="space-y-3 text-sm text-gray-600">
                     <li className="flex items-center gap-2">
-                      <svg className="w-4 h-4 text-ocean-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
+                      <span className="text-ocean-600 flex-shrink-0 text-xs font-bold">{"Temps"}</span>
                       {article.readTime} de lecture
                     </li>
                     <li className="flex items-center gap-2">
-                      <svg className="w-4 h-4 text-ocean-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
-                      </svg>
+                      <span className="text-ocean-600 flex-shrink-0 text-xs font-bold">{"Cat."}</span>
                       {article.category}
                     </li>
                   </ul>
