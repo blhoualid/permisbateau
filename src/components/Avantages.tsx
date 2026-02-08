@@ -39,7 +39,7 @@ export default function Avantages() {
       ),
       title: 'Proche de chez vous',
       description:
-        "Des centres partenaires \u00e0 Metz et dans toute la Moselle : Thionville, Pont-\u00e0-Mousson, Sarreguemines et environs.",
+        "Des centres partenaires \u00e0 Metz et dans toute la Moselle : Thionville, Pont-\u00e0-Mousson, Forbach et environs.",
     },
     {
       icon: (
