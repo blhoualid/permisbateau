@@ -54,9 +54,9 @@ export const articles: Article[] = [
 <h2>Le d\u00e9roulement de la formation \u00e0 Metz</h2>
 
 <h3>La th\u00e9orie</h3>
-<p>La formation th\u00e9orique comprend entre <strong>5 et 8 heures de cours</strong> r\u00e9parties sur plusieurs s\u00e9ances. Les centres agréés de Metz proposent généralement des cours du soir en semaine et des stages intensifs le week-end. Vous acc\u00e9dez \u00e9galement \u00e0 une plateforme d\u2019e-learning pour r\u00e9viser \u00e0 votre rythme.</p>
+<p>La formation th\u00e9orique comprend entre <strong>5 et 8 heures de cours</strong> r\u00e9parties sur plusieurs s\u00e9ances. Les centres agréés de Metz proposent généralement des cours du soir en semaine et des <a href="/blog/stage-permis-bateau-accelere-metz-weekend">stages intensifs le week-end</a>. Vous acc\u00e9dez \u00e9galement \u00e0 une plateforme d\u2019e-learning pour r\u00e9viser \u00e0 votre rythme.</p>
 
-<p>Les th\u00e8mes abord\u00e9s couvrent la <strong>r\u00e9glementation maritime</strong>, le balisage, la s\u00e9curit\u00e9, la m\u00e9t\u00e9o et les r\u00e8gles de navigation d\u00e9finies par la <a href="https://www.mer.gouv.fr/" target="_blank" rel="noopener noreferrer">Direction des Affaires Maritimes</a>.</p>
+<p>Les th\u00e8mes abord\u00e9s couvrent la <strong><a href="/blog/reglementation-permis-plaisance-france-2026">r\u00e9glementation maritime</a></strong>, le balisage, la s\u00e9curit\u00e9, la m\u00e9t\u00e9o et les r\u00e8gles de navigation d\u00e9finies par la <a href="https://www.mer.gouv.fr/" target="_blank" rel="noopener noreferrer">Direction des Affaires Maritimes</a>.</p>
 
 <h3>La pratique</h3>
 <p>La formation pratique se d\u00e9roule directement sur la <strong>Moselle, au port de plaisance de Metz</strong>. Pendant 3h30 de navigation, vous apprendrez :</p>
@@ -76,7 +76,7 @@ export const articles: Article[] = [
 
 <h2>Combien de temps faut-il ?</h2>
 
-<p>Avec notre formule intensive, vous pouvez obtenir votre permis bateau en <strong>2 \u00e0 3 semaines</strong> :</p>
+<p>Avec notre <a href="/blog/stage-permis-bateau-accelere-metz-weekend">formule intensive (stage week-end)</a>, vous pouvez obtenir votre permis bateau en <strong>2 \u00e0 3 semaines</strong> :</p>
 
 <ul>
 <li>Semaine 1-2 : formation th\u00e9orique + r\u00e9visions en ligne</li>
@@ -89,7 +89,7 @@ export const articles: Article[] = [
 
 <p>Pour gagner du temps le jour de votre inscription, rassemblez les documents suivants \u00e0 l\u2019avance. Une pi\u00e8ce d\u2019identit\u00e9 en cours de validit\u00e9 (carte nationale d\u2019identit\u00e9 ou passeport) est indispensable. Vous aurez \u00e9galement besoin de deux photos d\u2019identit\u00e9 r\u00e9centes au format officiel, que vous pouvez faire dans les cabines photo automatiques \u00e0 Metz Centre ou en pharmacie.</p>
 
-<p>Le <strong>timbre fiscal de 78\u20ac</strong> est \u00e0 acheter sur le site officiel <a href="https://timbres.impots.gouv.fr/" target="_blank" rel="noopener noreferrer">timbres.impots.gouv.fr</a>. Conservez pr\u00e9cieusement le code \u00e0 16 chiffres qui vous sera remis : il sera demand\u00e9 lors de l\u2019inscription \u00e0 l\u2019examen. Pour l\u2019extension hauturi\u00e8re, le timbre fiscal est de 38\u20ac. Un justificatif de domicile de moins de 6 mois peut \u00e9galement \u00eatre demand\u00e9 par certains centres.</p>
+<p>Le <strong>timbre fiscal de 78\u20ac</strong> (d\u00e9couvrez <a href="/blog/combien-coute-permis-bateau-2026-tarifs-financements">tous les tarifs du permis bateau en 2026</a>) est \u00e0 acheter sur le site officiel <a href="https://timbres.impots.gouv.fr/" target="_blank" rel="noopener noreferrer">timbres.impots.gouv.fr</a>. Conservez pr\u00e9cieusement le code \u00e0 16 chiffres qui vous sera remis : il sera demand\u00e9 lors de l\u2019inscription \u00e0 l\u2019examen. Pour l\u2019extension hauturi\u00e8re, le timbre fiscal est de 38\u20ac. Un justificatif de domicile de moins de 6 mois peut \u00e9galement \u00eatre demand\u00e9 par certains centres.</p>
 
 <h2>Bien choisir sa formule de formation</h2>
 
@@ -163,7 +163,7 @@ export const articles: Article[] = [
 <ul>
 <li><strong>Zone de navigation</strong> : C\u00f4tier = mer + eaux int\u00e9rieures / Fluvial = eaux int\u00e9rieures uniquement</li>
 <li><strong>Nombre de questions \u00e0 l\u2019examen</strong> : C\u00f4tier = 40 QCM / Fluvial = 40 QCM</li>
-<li><strong>Tarif chez nous</strong> : Option c\u00f4ti\u00e8re = 445\u20ac / Th\u00e9orie eaux int\u00e9rieures = 225\u20ac</li>
+<li><strong>Tarif chez nous</strong> : Option c\u00f4ti\u00e8re = 445\u20ac / Th\u00e9orie eaux int\u00e9rieures = 225\u20ac (<a href="/blog/combien-coute-permis-bateau-2026-tarifs-financements">voir tous les tarifs</a>)</li>
 <li><strong>Dur\u00e9e de formation</strong> : Similaire pour les deux (5-8h th\u00e9orie + 3h30 pratique)</li>
 </ul>
 
@@ -171,7 +171,7 @@ export const articles: Article[] = [
 
 <p>Bien que les deux examens consistent en un QCM de 40 questions pass\u00e9 dans un centre La Poste, le contenu des questions diff\u00e8re sensiblement. L\u2019examen du <strong>permis c\u00f4tier</strong> met l\u2019accent sur le balisage maritime (bouées lat\u00e9rales, cardinales, marques sp\u00e9ciales), les r\u00e8gles de priorit\u00e9 en mer et la m\u00e9t\u00e9orologie marine. Vous devrez ma\u00eetriser l\u2019\u00e9chelle de Beaufort, savoir lire une carte marine et comprendre les signaux de d\u00e9tresse.</p>
 
-<p>L\u2019examen du <strong>permis fluvial</strong> porte davantage sur la signalisation fluviale (panneaux de rivi\u00e8re), le fonctionnement des \u00e9cluses, les r\u00e8gles de croisement et de d\u00e9passement sur les cours d\u2019eau, et la r\u00e9glementation sp\u00e9cifique aux voies navigables g\u00e9r\u00e9es par VNF. Les questions de m\u00e9t\u00e9o y sont moins pr\u00e9sentes, mais le balisage fluvial a ses propres codes qu\u2019il faut ma\u00eetriser.</p>
+<p>L\u2019examen du <strong>permis fluvial</strong> porte davantage sur la signalisation fluviale (panneaux de rivi\u00e8re), le fonctionnement des \u00e9cluses, les r\u00e8gles de croisement et de d\u00e9passement sur les cours d\u2019eau, et la <a href="/blog/reglementation-permis-plaisance-france-2026">r\u00e9glementation sp\u00e9cifique aux voies navigables</a> g\u00e9r\u00e9es par VNF. Les questions de m\u00e9t\u00e9o y sont moins pr\u00e9sentes, mais le balisage fluvial a ses propres codes qu\u2019il faut ma\u00eetriser.</p>
 
 <h2>Cas pratiques : quel permis pour quel usage ?</h2>
 
@@ -216,7 +216,7 @@ export const articles: Article[] = [
 
 <h2>Erreur n\u00b02 : Sous-estimer les r\u00e8gles de priorit\u00e9</h2>
 
-<p>Les r\u00e8gles de priorit\u00e9 en mer diff\u00e8rent de celles de la route. Les candidats oublient souvent que :</p>
+<p>Les r\u00e8gles de priorit\u00e9 en mer diff\u00e8rent de celles de la route (consultez notre guide sur la <a href="/blog/reglementation-permis-plaisance-france-2026">r\u00e9glementation du permis plaisance</a>). Les candidats oublient souvent que :</p>
 
 <ul>
 <li>Un voilier est g\u00e9n\u00e9ralement prioritaire sur un bateau \u00e0 moteur</li>
@@ -228,7 +228,7 @@ export const articles: Article[] = [
 
 <h2>Erreur n\u00b03 : Ne pas assez s\u2019entra\u00eener en ligne</h2>
 
-<p>L\u2019examen se d\u00e9roule sous forme de <strong>QCM dans un centre La Poste</strong>. La meilleure pr\u00e9paration est de multiplier les tests en ligne. Les centres partenaires offrent généralement un acc\u00e8s illimit\u00e9 \u00e0 une plateforme de r\u00e9vision en ligne avec plus de <strong>600 questions</strong>.</p>
+<p>L\u2019examen se d\u00e9roule sous forme de <strong>QCM dans un centre La Poste</strong>. La meilleure pr\u00e9paration est de multiplier les tests en ligne, id\u00e9alement dans le cadre d\u2019un <a href="/blog/stage-permis-bateau-accelere-metz-weekend">stage acc\u00e9l\u00e9r\u00e9 en week-end</a>. Les centres partenaires offrent généralement un acc\u00e8s illimit\u00e9 \u00e0 une plateforme de r\u00e9vision en ligne avec plus de <strong>600 questions</strong>.</p>
 
 <h2>Erreur n\u00b04 : Ignorer la m\u00e9t\u00e9o marine</h2>
 
@@ -252,7 +252,7 @@ export const articles: Article[] = [
 
 <h2>Que faire en cas d\u2019\u00e9chec ?</h2>
 
-<p>Si malgr\u00e9 vos efforts vous ne r\u00e9ussissez pas du premier coup, ne vous d\u00e9couragez pas. Vous pouvez repasser l\u2019examen aussi souvent que n\u00e9cessaire. Les frais d\u2019inscription \u00e0 une nouvelle session sont de <strong>30\u20ac</strong>. Analysez les th\u00e8mes o\u00f9 vous avez fait le plus d\u2019erreurs (le r\u00e9capitulatif est disponible en ligne sur <a href="https://lecode.laposte.fr/bateau/faq" target="_blank" rel="noopener noreferrer">Le Code avec La Poste</a>) et concentrez vos r\u00e9visions sur ces points faibles avant de vous repr\u00e9senter. La plupart des candidats qui \u00e9chouent la premi\u00e8re fois r\u00e9ussissent d\u00e8s la deuxi\u00e8me tentative.</p>
+<p>Si malgr\u00e9 vos efforts vous ne r\u00e9ussissez pas du premier coup, ne vous d\u00e9couragez pas. Vous pouvez repasser l\u2019examen aussi souvent que n\u00e9cessaire. Les <a href="/blog/combien-coute-permis-bateau-2026-tarifs-financements">frais d\u2019inscription \u00e0 une nouvelle session</a> sont de <strong>30\u20ac</strong>. Analysez les th\u00e8mes o\u00f9 vous avez fait le plus d\u2019erreurs (le r\u00e9capitulatif est disponible en ligne sur <a href="https://lecode.laposte.fr/bateau/faq" target="_blank" rel="noopener noreferrer">Le Code avec La Poste</a>) et concentrez vos r\u00e9visions sur ces points faibles avant de vous repr\u00e9senter. La plupart des candidats qui \u00e9chouent la premi\u00e8re fois r\u00e9ussissent d\u00e8s la deuxi\u00e8me tentative.</p>
 
 <blockquote>Le taux de r\u00e9ussite national au permis bateau d\u00e9passe 80%. Avec une pr\u00e9paration s\u00e9rieuse, des cours clairs et un entra\u00eenement r\u00e9gulier en ligne, les candidats bien accompagn\u00e9s r\u00e9ussissent g\u00e9n\u00e9ralement d\u00e8s le premier passage.</blockquote>
 `,
@@ -284,7 +284,7 @@ export const articles: Article[] = [
 
 <h2>Quel permis pour naviguer sur la Moselle ?</h2>
 
-<p>Pour piloter un bateau \u00e0 moteur de plus de 6 chevaux sur la Moselle, vous avez besoin d\u2019un <strong>permis plaisance</strong> :</p>
+<p>Pour piloter un bateau \u00e0 moteur de plus de 6 chevaux sur la Moselle, vous avez besoin d\u2019un <strong><a href="/blog/reglementation-permis-plaisance-france-2026">permis plaisance</a></strong> :</p>
 
 <ul>
 <li>Le <strong>permis fluvial</strong> (eaux int\u00e9rieures) suffit</li>
@@ -339,11 +339,11 @@ export const articles: Article[] = [
 
 <h2>Location de bateaux sur la Moselle</h2>
 
-<p>Si vous ne poss\u00e9dez pas votre propre embarcation, plusieurs solutions de location existent dans la r\u00e9gion de Metz. Des soci\u00e9t\u00e9s sp\u00e9cialis\u00e9es proposent la location de <strong>bateaux habitables sans permis</strong> (moins de 6 CV, vitesse limit\u00e9e) pour d\u00e9couvrir la Moselle \u00e0 votre rythme. Pour les bateaux plus puissants, votre permis fluvial ou c\u00f4tier sera exig\u00e9.</p>
+<p>Si vous ne poss\u00e9dez pas votre propre embarcation, plusieurs solutions de location existent dans la r\u00e9gion de Metz. Des soci\u00e9t\u00e9s sp\u00e9cialis\u00e9es proposent la location de <strong>bateaux habitables sans permis</strong> (moins de 6 CV, vitesse limit\u00e9e) pour d\u00e9couvrir la Moselle \u00e0 votre rythme. Pour les bateaux plus puissants, votre permis fluvial ou c\u00f4tier sera exig\u00e9 (consultez <a href="/blog/combien-coute-permis-bateau-2026-tarifs-financements">les tarifs du permis bateau</a>).</p>
 
 <p>La location de <strong>bateaux \u00e0 la journ\u00e9e</strong> (petits hors-bord, bateaux de p\u00eache) est \u00e9galement possible au d\u00e9part de Metz et de plusieurs bases nautiques le long de la Moselle. C\u2019est un excellent moyen de mettre en pratique vos comp\u00e9tences fra\u00eechement acquises apr\u00e8s l\u2019obtention de votre permis bateau.</p>
 
-<blockquote>La formation pratique au permis bateau \u00e0 Metz se d\u00e9roule directement sur la Moselle, au port de plaisance. Vous apprendrez le passage d\u2019\u00e9cluses et la navigation en conditions r\u00e9elles, ce qui constitue un atout consid\u00e9rable par rapport \u00e0 une formation en bassin artificiel.</blockquote>
+<blockquote>La <a href="/blog/stage-permis-bateau-accelere-metz-weekend">formation pratique au permis bateau \u00e0 Metz</a> se d\u00e9roule directement sur la Moselle, au port de plaisance. Vous apprendrez le passage d\u2019\u00e9cluses et la navigation en conditions r\u00e9elles, ce qui constitue un atout consid\u00e9rable par rapport \u00e0 une formation en bassin artificiel.</blockquote>
 `,
   },
   {
@@ -378,7 +378,7 @@ export const articles: Article[] = [
 </ul>
 
 <h3>2. Le timbre fiscal</h3>
-<p>Obligatoire et fix\u00e9 par l\u2019\u00c9tat, le <a href="https://timbres.impots.gouv.fr/" target="_blank" rel="noopener noreferrer">timbre fiscal</a> co\u00fbte :</p>
+<p>Obligatoire et fix\u00e9 par l\u2019\u00c9tat conformément \u00e0 la <a href="/blog/reglementation-permis-plaisance-france-2026">r\u00e9glementation en vigueur</a>, le <a href="https://timbres.impots.gouv.fr/" target="_blank" rel="noopener noreferrer">timbre fiscal</a> co\u00fbte :</p>
 
 <ul>
 <li><strong>78\u20ac</strong> pour le permis c\u00f4tier ou fluvial</li>
@@ -422,7 +422,7 @@ export const articles: Article[] = [
 
 <h2>Le permis bateau : un investissement rentable</h2>
 
-<p>Si le co\u00fbt initial peut sembler \u00e9lev\u00e9, le permis bateau reste un investissement durable. Valable \u00e0 vie et sans frais de renouvellement, il vous ouvre les portes de la plaisance pour des d\u00e9cennies. Compar\u00e9 au permis de conduire (1 500\u20ac \u00e0 2 500\u20ac en moyenne), le permis bateau est nettement plus accessible et s\u2019obtient beaucoup plus rapidement, parfois en un seul week-end.</p>
+<p>Si le co\u00fbt initial peut sembler \u00e9lev\u00e9, le permis bateau reste un investissement durable. Valable \u00e0 vie et sans frais de renouvellement, il vous ouvre les portes de la plaisance pour des d\u00e9cennies. Compar\u00e9 au permis de conduire (1 500\u20ac \u00e0 2 500\u20ac en moyenne), le permis bateau est nettement plus accessible et s\u2019obtient beaucoup plus rapidement, parfois en un seul <a href="/blog/stage-permis-bateau-accelere-metz-weekend">week-end avec un stage acc\u00e9l\u00e9r\u00e9</a>.</p>
 
 <p>De plus, poss\u00e9der son permis bateau permet de r\u00e9aliser des \u00e9conomies sur la location : un bateau avec skipper co\u00fbte 30% \u00e0 50% plus cher qu\u2019un bateau en simple location. Sur quelques ann\u00e9es de vacances nautiques, le retour sur investissement est garanti.</p>
 
@@ -443,7 +443,7 @@ export const articles: Article[] = [
     image: 'https://images.pexels.com/photos/12204727/pexels-photo-12204727.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Stage permis bateau acc\u00e9l\u00e9r\u00e9 le week-end \u00e0 Metz',
     content: `
-<p>Vous souhaitez obtenir votre <strong>permis bateau rapidement</strong> ? Notre stage acc\u00e9l\u00e9r\u00e9 \u00e0 Metz vous permet de suivre toute la formation en un seul week-end.</p>
+<p>Vous souhaitez obtenir votre <strong>permis bateau rapidement</strong> ? Notre <a href="/blog/comment-passer-permis-bateau-metz-guide-complet">stage acc\u00e9l\u00e9r\u00e9 \u00e0 Metz</a> vous permet de suivre toute la formation en un seul week-end.</p>
 
 <h2>Le principe du stage acc\u00e9l\u00e9r\u00e9</h2>
 
@@ -470,7 +470,7 @@ export const articles: Article[] = [
 
 <h3>Samedi : th\u00e9orie intensive</h3>
 <ul>
-<li>9h-10h30 : R\u00e9glementation et s\u00e9curit\u00e9</li>
+<li>9h-10h30 : <a href="/blog/reglementation-permis-plaisance-france-2026">R\u00e9glementation</a> et s\u00e9curit\u00e9</li>
 <li>10h45-12h15 : Balisage et signalisation maritime</li>
 <li>13h30-15h : R\u00e8gles de navigation et priorit\u00e9s</li>
 <li>15h15-17h : M\u00e9t\u00e9o marine, carte, exercices pratiques</li>
@@ -494,9 +494,9 @@ export const articles: Article[] = [
 
 <h2>Calendrier des prochains stages</h2>
 
-<p>Les centres agréés organisent des stages acc\u00e9l\u00e9r\u00e9s <strong>2 \u00e0 3 week-ends par mois</strong>, de mars \u00e0 octobre. Les places sont limit\u00e9es \u00e0 <strong>10 participants maximum</strong> pour garantir un encadrement optimal.</p>
+<p>Les centres agréés organisent des stages acc\u00e9l\u00e9r\u00e9s <strong>2 \u00e0 3 week-ends par mois</strong>, de mars \u00e0 octobre. Les places sont limit\u00e9es \u00e0 <strong>10 participants maximum</strong> pour garantir un encadrement optimal (voir <a href="/blog/combien-coute-permis-bateau-2026-tarifs-financements">nos tarifs</a>).</p>
 
-<p>Consultez notre calendrier et r\u00e9servez votre place sur <a href="https://permis-bateau-metz.fr/#contact" rel="noopener">notre formulaire de contact</a>.</p>
+<p>Consultez notre calendrier et r\u00e9servez votre place sur <a href="/">notre site Permis Bateau Metz</a>.</p>
 
 <h2>Que faut-il apporter au stage ?</h2>
 
@@ -537,7 +537,7 @@ export const articles: Article[] = [
 
 <h2>Les bases de la r\u00e9glementation</h2>
 
-<p>Le permis plaisance est r\u00e9gi par le <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000417431" target="_blank" rel="noopener noreferrer">d\u00e9cret n\u00b02007-1167 du 2 ao\u00fbt 2007</a>, modifi\u00e9 plusieurs fois depuis. Les principales dispositions :</p>
+<p>Le permis plaisance est r\u00e9gi par le <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000417431" target="_blank" rel="noopener noreferrer">d\u00e9cret n\u00b02007-1167 du 2 ao\u00fbt 2007</a>, modifi\u00e9 plusieurs fois depuis (retrouvez notre <a href="/blog/comment-passer-permis-bateau-metz-guide-complet">guide complet pour passer le permis \u00e0 Metz</a>). Les principales dispositions :</p>
 
 <ul>
 <li>Le permis est <strong>obligatoire</strong> pour tout bateau \u00e0 moteur d\u00e9passant <strong>6 chevaux (4,5 kW)</strong></li>
@@ -547,7 +547,7 @@ export const articles: Article[] = [
 
 <h2>La r\u00e9forme de l\u2019examen (depuis 2022)</h2>
 
-<p>Le changement majeur de ces derni\u00e8res ann\u00e9es a \u00e9t\u00e9 la <strong>r\u00e9forme de l\u2019examen th\u00e9orique</strong> :</p>
+<p>Le changement majeur de ces derni\u00e8res ann\u00e9es a \u00e9t\u00e9 la <strong>r\u00e9forme de l\u2019examen th\u00e9orique</strong> (pr\u00e9parez-vous gr\u00e2ce \u00e0 notre <a href="/blog/stage-permis-bateau-accelere-metz-weekend">stage acc\u00e9l\u00e9r\u00e9 \u00e0 Metz</a>) :</p>
 
 <ul>
 <li>L\u2019examen se passe d\u00e9sormais dans des <strong>centres agr\u00e9\u00e9s La Poste</strong> (et non plus dans les Affaires Maritimes)</li>
@@ -591,7 +591,7 @@ export const articles: Article[] = [
 <p>Naviguer sans permis ou en infraction peut co\u00fbter cher. Les sanctions pr\u00e9vues par la r\u00e9glementation fran\u00e7aise sont les suivantes :</p>
 
 <ul>
-<li><strong>Navigation sans permis</strong> : jusqu\u2019\u00e0 1 500\u20ac d\u2019amende</li>
+<li><strong>Navigation sans permis</strong> : jusqu\u2019\u00e0 1 500\u20ac d\u2019amende (voir le <a href="/blog/combien-coute-permis-bateau-2026-tarifs-financements">co\u00fbt du permis bateau</a>)</li>
 <li><strong>Vitesse excessive</strong> : jusqu\u2019\u00e0 1 500\u20ac</li>
 <li><strong>Alcool\u00e9mie</strong> : m\u00eames r\u00e8gles que sur la route (0,5 g/L), suspension du permis</li>
 <li><strong>D\u00e9faut d\u2019\u00e9quipement</strong> : 750\u20ac d\u2019amende par \u00e9quipement manquant</li>
@@ -617,7 +617,7 @@ export const articles: Article[] = [
 
 <p>Certaines zones de la Moselle et de ses affluents sont class\u00e9es <strong>Natura 2000</strong> et font l\u2019objet de r\u00e8gles sp\u00e9cifiques pour prot\u00e9ger la faune et la flore. La vitesse peut y \u00eatre limit\u00e9e et le mouillage interdit. Respecter ces r\u00e8gles, c\u2019est pr\u00e9server le cadre naturel exceptionnel qui fait le charme de la navigation en Moselle.</p>
 
-<blockquote>Une bonne connaissance de la r\u00e9glementation est essentielle pour naviguer en s\u00e9curit\u00e9 et en toute l\u00e9galit\u00e9. Les centres agr\u00e9\u00e9s de Metz vous forment non seulement pour r\u00e9ussir l\u2019examen, mais aussi pour devenir un navigateur responsable, respectueux des r\u00e8gles et de l\u2019environnement.</blockquote>
+<blockquote>Une bonne connaissance de la r\u00e9glementation est essentielle pour naviguer en s\u00e9curit\u00e9 et en toute l\u00e9galit\u00e9. Les centres agr\u00e9\u00e9s de Metz vous forment (consultez notre <a href="/blog/comment-passer-permis-bateau-metz-guide-complet">guide complet du permis bateau \u00e0 Metz</a>) non seulement pour r\u00e9ussir l\u2019examen, mais aussi pour devenir un navigateur responsable, respectueux des r\u00e8gles et de l\u2019environnement.</blockquote>
 `,
   },
 ]

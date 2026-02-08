@@ -179,7 +179,21 @@ export default function Formations() {
           </div>
         </div>
 
-        <p className="text-center text-gray-400 text-xs mt-8">
+        <div className="text-center mt-10 flex flex-wrap justify-center gap-4">
+          <Link href="/blog/combien-coute-permis-bateau-2026-tarifs-financements" className="text-ocean-600 hover:text-ocean-700 text-sm font-medium underline">
+            {"D\u00e9tail complet des tarifs 2026"}
+          </Link>
+          <span className="text-gray-300">|</span>
+          <Link href="/blog/stage-permis-bateau-accelere-metz-weekend" className="text-ocean-600 hover:text-ocean-700 text-sm font-medium underline">
+            {"Stage acc\u00e9l\u00e9r\u00e9 en un week-end"}
+          </Link>
+          <span className="text-gray-300">|</span>
+          <Link href="/blog/permis-cotier-ou-fluvial-lequel-choisir" className="text-ocean-600 hover:text-ocean-700 text-sm font-medium underline">
+            {"C\u00f4tier ou fluvial : lequel choisir ?"}
+          </Link>
+        </div>
+
+        <p className="text-center text-gray-400 text-xs mt-4">
           {"* Tarifs indicatifs constat\u00e9s aupr\u00e8s des centres agr\u00e9\u00e9s de Metz et environs. Les prix peuvent varier selon le centre partenaire."}
         </p>
       </div>

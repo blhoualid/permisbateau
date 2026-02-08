@@ -117,6 +117,15 @@ export default function Tarifs() {
           <p className="text-gray-400 text-xs mt-3">
             {"Gratuit et sans engagement \u2014 un partenaire vous rappelle sous 24h"}
           </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-4">
+            <Link href="/blog/combien-coute-permis-bateau-2026-tarifs-financements" className="text-ocean-600 hover:text-ocean-700 text-sm font-medium underline">
+              {"Guide complet des prix du permis bateau 2026"}
+            </Link>
+            <span className="text-gray-300">|</span>
+            <Link href="/blog/reglementation-permis-plaisance-france-2026" className="text-ocean-600 hover:text-ocean-700 text-sm font-medium underline">
+              {"R\u00e9glementation en vigueur"}
+            </Link>
+          </div>
         </div>
       </div>
     </section>
