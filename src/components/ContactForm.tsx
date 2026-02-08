@@ -87,10 +87,8 @@ export default function ContactForm() {
 
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-ocean-100 flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-ocean-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
+                <div className="w-12 h-12 rounded-xl bg-ocean-100 flex items-center justify-center flex-shrink-0 text-ocean-600 font-bold text-lg">
+                  {"@"}
                 </div>
                 <div>
                   <h3 className="font-semibold text-navy-900">Email de la plateforme</h3>
@@ -101,10 +99,8 @@ export default function ContactForm() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-ocean-100 flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-ocean-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
+                <div className="w-12 h-12 rounded-xl bg-ocean-100 flex items-center justify-center flex-shrink-0 text-ocean-600 font-bold text-lg">
+                  {"?"}
                 </div>
                 <div>
                   <h3 className="font-semibold text-navy-900">{"Comment \u00e7a marche\u00a0?"}</h3>
@@ -115,10 +111,8 @@ export default function ContactForm() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-ocean-100 flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-ocean-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                  </svg>
+                <div className="w-12 h-12 rounded-xl bg-ocean-100 flex items-center justify-center flex-shrink-0 text-ocean-600 font-bold text-lg">
+                  {"RGPD"}
                 </div>
                 <div>
                   <h3 className="font-semibold text-navy-900">{"Donn\u00e9es prot\u00e9g\u00e9es"}</h3>
@@ -142,10 +136,8 @@ export default function ContactForm() {
             <div className="card p-8 md:p-10">
               {status === 'success' ? (
                 <div className="text-center py-12">
-                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <svg className="w-8 h-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
+                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 text-green-600 text-3xl font-bold">
+                    {"\u2713"}
                   </div>
                   <h3 className="font-heading text-2xl font-bold text-navy-900 mb-3">
                     {"Demande envoy\u00e9e\u00a0!"}
@@ -308,13 +300,7 @@ export default function ContactForm() {
                     className="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {status === 'loading' ? (
-                      <span className="flex items-center gap-2">
-                        <svg className="animate-spin w-5 h-5" viewBox="0 0 24 24" fill="none">
-                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-                        </svg>
-                        Envoi en cours...
-                      </span>
+                      'Envoi en cours...'
                     ) : (
                       "\u00catre rappel\u00e9 gratuitement"
                     )}

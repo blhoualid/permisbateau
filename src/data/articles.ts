@@ -426,6 +426,12 @@ export const articles: Article[] = [
 
 <p>De plus, poss\u00e9der son permis bateau permet de r\u00e9aliser des \u00e9conomies sur la location : un bateau avec skipper co\u00fbte 30% \u00e0 50% plus cher qu\u2019un bateau en simple location. Sur quelques ann\u00e9es de vacances nautiques, le retour sur investissement est garanti.</p>
 
+<h2>Faut-il choisir une formation en ligne ou en pr\u00e9sentiel ?</h2>
+
+<p>La question du format se pose de plus en plus. Les formations 100% en ligne sont g\u00e9n\u00e9ralement moins ch\u00e8res (250\u20ac \u00e0 350\u20ac), mais la qualit\u00e9 de la pr\u00e9paration varie \u00e9norm\u00e9ment d\u2019un prestataire \u00e0 l\u2019autre. L\u2019avantage du pr\u00e9sentiel \u00e0 Metz est double : vous b\u00e9n\u00e9ficiez de l\u2019encadrement direct d\u2019un formateur exp\u00e9riment\u00e9, et la pratique se fait sur la Moselle, dans des conditions r\u00e9elles de navigation. Les formations hybrides, qui combinent e-learning pour la th\u00e9orie et pr\u00e9sentiel pour la pratique, offrent souvent le meilleur \u00e9quilibre entre co\u00fbt, flexibilit\u00e9 et qualit\u00e9 de pr\u00e9paration.</p>
+
+<p>Notre recommandation : privil\u00e9giez un centre qui propose un acc\u00e8s \u00e0 la plateforme d\u2019e-learning avant le stage, une formation th\u00e9orique en petit groupe avec un formateur disponible pour r\u00e9pondre \u00e0 vos questions, et une s\u00e9ance pratique compl\u00e8te sur l\u2019eau. C\u2019est ce format qui donne les meilleurs taux de r\u00e9ussite \u00e0 l\u2019examen.</p>
+
 <blockquote>Le prix ne doit pas \u00eatre le seul crit\u00e8re de choix. La qualit\u00e9 de l\u2019enseignement, le taux de r\u00e9ussite et l\u2019accompagnement sont essentiels. Les meilleurs centres de Metz combinent les trois : prix comp\u00e9titif, taux de r\u00e9ussite \u00e9lev\u00e9 et suivi personnalis\u00e9.</blockquote>
 `,
   },

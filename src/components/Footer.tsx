@@ -26,10 +26,8 @@ export default function Footer() {
           {/* Col 1: Brand */}
           <div>
             <Link href="/" className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center">
-                <svg viewBox="0 0 40 40" className="w-7 h-7" fill="none">
-                  <path d="M20 5 L35 30 Q27 35 20 32 Q13 35 5 30 Z" className="fill-white" />
-                </svg>
+              <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-white font-bold text-lg">
+                PB
               </div>
               <div>
                 <span className="font-heading font-bold text-lg block">Permis Bateau</span>
@@ -86,11 +84,11 @@ export default function Footer() {
             <h4 className="font-heading font-bold text-sm uppercase tracking-wider mb-6">Contact</h4>
             <div className="space-y-4 text-sm">
               <div className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-ocean-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                <span className="text-ocean-400 flex-shrink-0">{"@"}</span>
                 <a href="mailto:contact@permis-bateau-metz.fr" className="text-white/50 hover:text-white transition-colors">contact@permis-bateau-metz.fr</a>
               </div>
               <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 text-ocean-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                <span className="text-ocean-400 flex-shrink-0">{"Lieu"}</span>
                 <span className="text-white/50">{"Zone couverte : Metz, Moselle, Grand Est"}</span>
               </div>
             </div>

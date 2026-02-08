@@ -2,13 +2,7 @@ import Link from 'next/link'
 
 const formations = [
   {
-    icon: (
-      <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none">
-        <circle cx="24" cy="24" r="22" className="stroke-ocean-500" strokeWidth="2" />
-        <path d="M12 30 Q18 20 24 28 Q30 20 36 30" className="stroke-ocean-600" strokeWidth="2.5" fill="none" />
-        <path d="M24 10 L28 22 H20 Z" className="fill-ocean-500" />
-      </svg>
-    ),
+    iconLabel: 'MER',
     title: 'Permis Bateau - Option C\u00f4ti\u00e8re',
     description:
       "Permet de naviguer en mer jusqu'\u00e0 6 milles d'un abri et sur toutes les eaux int\u00e9rieures. Le permis le plus polyvalent.",
@@ -21,15 +15,7 @@ const formations = [
     price: '445',
   },
   {
-    icon: (
-      <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none">
-        <rect x="4" y="14" width="40" height="20" rx="4" className="stroke-ocean-500" strokeWidth="2" />
-        <path d="M4 24 H44" className="stroke-ocean-400" strokeWidth="1.5" strokeDasharray="4 2" />
-        <path d="M20 10 L24 14 L28 10" className="stroke-ocean-600" strokeWidth="2" fill="none" />
-        <circle cx="14" cy="24" r="3" className="fill-ocean-500" />
-        <circle cx="34" cy="24" r="3" className="fill-ocean-500" />
-      </svg>
-    ),
+    iconLabel: 'EAU',
     title: 'Permis Bateau - Th\u00e9orie Eaux Int\u00e9rieures',
     description:
       'Sp\u00e9cialis\u00e9 pour les rivi\u00e8res, canaux et lacs. Id\u00e9al pour naviguer sur la Moselle et les voies navigables.',
@@ -42,15 +28,7 @@ const formations = [
     price: '225',
   },
   {
-    icon: (
-      <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none">
-        <circle cx="24" cy="24" r="20" className="stroke-ocean-500" strokeWidth="2" />
-        <path d="M24 6 L24 42 M6 24 L42 24" className="stroke-ocean-300" strokeWidth="1" />
-        <path d="M24 4 L24 8 M24 40 L24 44 M4 24 L8 24 M40 24 L44 24" className="stroke-ocean-600" strokeWidth="2" />
-        <circle cx="24" cy="24" r="3" className="fill-ocean-500" />
-        <path d="M24 24 L32 16" className="stroke-ocean-700" strokeWidth="2" />
-      </svg>
-    ),
+    iconLabel: '360',
     title: 'Permis Bateau - Extension Hauturi\u00e8re',
     description:
       'Permet de naviguer au-del\u00e0 des 6 milles, sans limite de distance. Navigation astronomique et m\u00e9t\u00e9o avanc\u00e9e.',
@@ -63,14 +41,7 @@ const formations = [
     price: '420',
   },
   {
-    icon: (
-      <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none">
-        <path d="M14 34 L24 14 L34 34" className="stroke-ocean-500" strokeWidth="2" fill="none" />
-        <path d="M10 38 Q24 30 38 38" className="stroke-ocean-600" strokeWidth="2.5" fill="none" />
-        <circle cx="24" cy="10" r="3" className="fill-ocean-400" />
-        <path d="M18 28 L30 28" className="stroke-ocean-400" strokeWidth="1.5" />
-      </svg>
-    ),
+    iconLabel: 'PRO',
     title: 'Cours Pratique - Remise \u00e0 niveau',
     description:
       "S\u00e9ance de pratique encadr\u00e9e pour les titulaires de permis souhaitant reprendre confiance sur l'eau.",
@@ -109,7 +80,9 @@ export default function Formations() {
               key={formation.title}
               className="card p-8 relative flex flex-col"
             >
-              <div className="mb-6">{formation.icon}</div>
+              <div className="w-12 h-12 rounded-xl bg-ocean-100 text-ocean-600 flex items-center justify-center font-bold text-sm mb-6">
+                {formation.iconLabel}
+              </div>
 
               <h3 className="font-heading text-xl font-bold text-navy-900 mb-3">
                 {formation.title}
@@ -120,19 +93,7 @@ export default function Formations() {
               <ul className="space-y-3 mb-8">
                 {formation.features.map((feature) => (
                   <li key={feature} className="flex items-start gap-3">
-                    <svg
-                      className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2.5}
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
+                    <span className="text-green-500 font-bold mt-0.5 flex-shrink-0">{"✓"}</span>
                     <span className="text-gray-700 text-sm">{feature}</span>
                   </li>
                 ))}
