@@ -6,14 +6,13 @@ export default function Tarifs() {
       <div className="container-custom">
         <div className="text-center mb-16">
           <span className="inline-block text-ocean-600 font-semibold text-sm uppercase tracking-wider mb-3">
-            Tarifs transparents
+            Tarifs indicatifs
           </span>
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-900 mb-4">
-            Le co&ucirc;t total, sans surprise
+            {"Combien co\u00fbte le permis bateau \u00e0 Metz\u00a0?"}
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Nous affichons tous les co&ucirc;ts : formation, timbre fiscal et frais d&apos;examen.
-            Paiement en 3 fois sans frais possible.
+            {"Voici les tarifs moyens constat\u00e9s aupr\u00e8s des centres agr\u00e9\u00e9s de Metz et environs. Le timbre fiscal et les frais d'examen sont fix\u00e9s par l'\u00c9tat."}
           </p>
         </div>
 
@@ -25,7 +24,7 @@ export default function Tarifs() {
                   Formation
                 </th>
                 <th className="py-4 px-4 font-heading font-bold text-navy-900 text-lg text-center">
-                  Formation
+                  Formation *
                 </th>
                 <th className="py-4 px-4 font-heading font-bold text-navy-900 text-lg text-center">
                   Timbre fiscal
@@ -34,7 +33,7 @@ export default function Tarifs() {
                   Examen
                 </th>
                 <th className="py-4 px-4 font-heading font-bold text-navy-900 text-lg text-center">
-                  Total
+                  Total estim&eacute;
                 </th>
               </tr>
             </thead>
@@ -107,12 +106,14 @@ export default function Tarifs() {
 
         <div className="mt-10 text-center">
           <p className="text-gray-500 text-sm mb-6">
-            * Le timbre fiscal et les frais d&apos;examen sont fix&eacute;s par l&apos;&Eacute;tat.
-            Paiement de la formation en 3 fois sans frais sur demande.
+            {"* Tarifs indicatifs constat\u00e9s aupr\u00e8s des centres de formation agr\u00e9\u00e9s de Metz et environs (2025). Les prix peuvent varier selon le centre partenaire. Le timbre fiscal et les frais d'examen sont fix\u00e9s par l'\u00c9tat."}
           </p>
           <Link href="#contact" className="btn-primary">
-            Demander un devis personnalis&eacute;
+            {"Recevoir un devis personnalis\u00e9"}
           </Link>
+          <p className="text-gray-400 text-xs mt-3">
+            {"Gratuit et sans engagement \u2014 un partenaire vous rappelle sous 24h"}
+          </p>
         </div>
       </div>
     </section>

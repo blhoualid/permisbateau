@@ -11,11 +11,11 @@ const formations = [
     ),
     title: 'Permis Bateau - Option C\u00f4ti\u00e8re',
     description:
-      'Naviguez en mer jusqu\u2019\u00e0 6 milles d\u2019un abri et sur toutes les eaux int\u00e9rieures. Le permis le plus polyvalent.',
+      "Permet de naviguer en mer jusqu'\u00e0 6 milles d'un abri et sur toutes les eaux int\u00e9rieures. Le permis le plus polyvalent.",
     features: [
       '5 \u00e0 8h de th\u00e9orie en salle ou e-learning',
-      '3h30 de pratique sur la Moselle',
-      'Acc\u00e8s plateforme r\u00e9vision illimit\u00e9',
+      '3h30 de pratique sur bateau',
+      'Acc\u00e8s plateforme de r\u00e9vision',
       'Examen en centre La Poste',
     ],
     price: '445',
@@ -35,7 +35,7 @@ const formations = [
       'Sp\u00e9cialis\u00e9 pour les rivi\u00e8res, canaux et lacs. Id\u00e9al pour naviguer sur la Moselle et les voies navigables.',
     features: [
       '3 \u00e0 6h de th\u00e9orie sp\u00e9cifique',
-      '3h30 de pratique avec passage d\u2019\u00e9cluse',
+      "3h30 de pratique avec passage d'\u00e9cluse",
       'R\u00e9glementation eaux int\u00e9rieures',
       'Examen en centre La Poste',
     ],
@@ -53,7 +53,7 @@ const formations = [
     ),
     title: 'Permis Bateau - Extension Hauturi\u00e8re',
     description:
-      'Naviguez au-del\u00e0 des 6 milles, sans limite de distance. Navigation astronomique et m\u00e9t\u00e9o avanc\u00e9e.',
+      'Permet de naviguer au-del\u00e0 des 6 milles, sans limite de distance. Navigation astronomique et m\u00e9t\u00e9o avanc\u00e9e.',
     features: [
       'Formation th\u00e9orique approfondie',
       'Navigation astronomique & \u00e9lectronique',
@@ -73,12 +73,12 @@ const formations = [
     ),
     title: 'Cours Pratique - Remise \u00e0 niveau',
     description:
-      'Reprenez confiance sur l\u2019eau. S\u00e9ance de pratique encadr\u00e9e pour les titulaires de permis souhaitant se remettre \u00e0 niveau.',
+      "S\u00e9ance de pratique encadr\u00e9e pour les titulaires de permis souhaitant reprendre confiance sur l'eau.",
     features: [
       'Session individuelle ou petit groupe',
-      'Man\u0153uvres d\u2019accostage et appareillage',
+      "Man\u0153uvres d'accostage et appareillage",
       'Rappels de s\u00e9curit\u00e9',
-      'Sur la Moselle, conditions r\u00e9elles',
+      'Conditions r\u00e9elles de navigation',
     ],
     price: '90',
   },
@@ -90,13 +90,13 @@ export default function Formations() {
       <div className="container-custom">
         <div className="text-center mb-16">
           <span className="inline-block text-ocean-600 font-semibold text-sm uppercase tracking-wider mb-3">
-            Nos formations
+            Les formations
           </span>
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-900 mb-4">
-            Choisissez votre permis bateau
+            Quel permis bateau choisir ?
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Des formations adapt\u00e9es \u00e0 vos projets de navigation. Th\u00e9orie, pratique et acc\u00e8s \u00e0 notre plateforme e-learning inclus.
+            {"Comparez les diff\u00e9rentes formules propos\u00e9es par les centres agr\u00e9\u00e9s de la r\u00e9gion de Metz. Tarifs indicatifs constat\u00e9s en Moselle."}
           </p>
         </div>
 
@@ -136,7 +136,8 @@ export default function Formations() {
               </ul>
 
               <div className="mt-auto">
-                <div className="flex items-baseline gap-1 mb-4">
+                <p className="text-xs text-gray-400 mb-1">{"Tarif indicatif \u00e0 partir de"}</p>
+                <div className="flex items-baseline gap-1 mb-3">
                   <span className="text-4xl font-heading font-black text-navy-900">
                     {formation.price}&euro;
                   </span>
@@ -145,7 +146,7 @@ export default function Formations() {
                   href="#contact"
                   className="w-full text-center btn-secondary !py-3"
                 >
-                  S&apos;inscrire
+                  Recevoir un devis
                 </Link>
               </div>
             </div>
@@ -157,22 +158,27 @@ export default function Formations() {
           <div className="gradient-navy rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
               <h3 className="font-heading text-2xl md:text-3xl font-bold text-white mb-2">
-                Option C\u00f4ti\u00e8re + Eaux Int\u00e9rieures
+                {"Option C\u00f4ti\u00e8re + Eaux Int\u00e9rieures"}
               </h3>
               <p className="text-white/70 max-w-md">
-                Les deux permis en une seule formation. Naviguez partout en France : mer, rivi\u00e8res, canaux et lacs.
+                {"Les deux permis en une seule formation. Naviguez partout en France\u00a0: mer, rivi\u00e8res, canaux et lacs."}
               </p>
             </div>
             <div className="text-center flex-shrink-0">
+              <p className="text-white/50 text-sm mb-1">{"Tarif indicatif"}</p>
               <div className="text-5xl font-heading font-black text-white mb-4">
                 545&euro;
               </div>
               <Link href="#contact" className="btn-primary">
-                S&apos;inscrire
+                Recevoir un devis
               </Link>
             </div>
           </div>
         </div>
+
+        <p className="text-center text-gray-400 text-xs mt-8">
+          {"* Tarifs indicatifs constat\u00e9s aupr\u00e8s des centres agr\u00e9\u00e9s de Metz et environs. Les prix peuvent varier selon le centre partenaire."}
+        </p>
       </div>
     </section>
   )

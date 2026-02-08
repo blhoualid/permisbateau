@@ -4,44 +4,44 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    question: 'Quel âge faut-il pour passer le permis bateau ?',
+    question: 'Quel \u00e2ge faut-il pour passer le permis bateau ?',
     answer:
-      'Il faut avoir au minimum 16 ans pour passer le permis bateau (côtier ou fluvial). Les mineurs doivent fournir une autorisation parentale. Il n\'y a pas d\'âge maximum.',
+      "Il faut avoir au minimum 16 ans pour passer le permis bateau (c\u00f4tier ou fluvial). Les mineurs doivent fournir une autorisation parentale. Il n'y a pas d'\u00e2ge maximum.",
   },
   {
     question: 'Combien de temps dure la formation ?',
     answer:
-      'La formation théorique dure entre 5 et 8 heures selon la formule choisie (cours du soir ou stage week-end). La pratique dure 3h30 sur la Moselle. Au total, comptez 2 à 3 semaines entre l\'inscription et l\'obtention du permis, ou un seul week-end avec notre stage accéléré.',
+      "La formation th\u00e9orique dure entre 5 et 8 heures selon la formule choisie (cours du soir ou stage week-end). La pratique dure g\u00e9n\u00e9ralement 3h30 sur bateau. Au total, comptez 2 \u00e0 3 semaines entre l'inscription et l'obtention du permis, ou un seul week-end avec un stage acc\u00e9l\u00e9r\u00e9.",
   },
   {
-    question: 'Comment se passe l\'examen ?',
+    question: "Comment se passe l'examen ?",
     answer:
-      'L\'examen théorique est un QCM de 40 questions passé dans un centre La Poste. Vous avez droit à 5 erreurs maximum. Le résultat est disponible sous 48h en ligne. La partie pratique est validée par votre formateur pendant la formation.',
+      "L'examen th\u00e9orique est un QCM de 40 questions pass\u00e9 dans un centre La Poste. Vous avez droit \u00e0 5 erreurs maximum. Le r\u00e9sultat est disponible sous 48h en ligne. La partie pratique est valid\u00e9e par le formateur du centre pendant la formation.",
   },
   {
-    question: 'Le permis côtier permet-il de naviguer sur les rivières ?',
+    question: 'Le permis c\u00f4tier permet-il de naviguer sur les rivi\u00e8res ?',
     answer:
-      'Oui ! Le permis côtier est valable en mer ET sur les eaux intérieures (rivières, canaux, lacs). C\'est le permis le plus polyvalent. Le permis fluvial, lui, ne permet de naviguer que sur les eaux intérieures.',
+      "Oui ! Le permis c\u00f4tier est valable en mer ET sur les eaux int\u00e9rieures (rivi\u00e8res, canaux, lacs). C'est le permis le plus polyvalent. Le permis fluvial, lui, ne permet de naviguer que sur les eaux int\u00e9rieures.",
   },
   {
-    question: 'Proposez-vous le paiement en plusieurs fois ?',
+    question: 'Votre service est-il payant ?',
     answer:
-      'Oui, nous proposons le paiement en 3 fois sans frais pour toutes nos formations. Le premier tiers est versé à l\'inscription, les deux suivants avant le passage de l\'examen.',
+      "Non, notre service de mise en relation est enti\u00e8rement gratuit pour vous. Nous sommes une plateforme ind\u00e9pendante qui vous aide \u00e0 trouver un centre de formation agr\u00e9\u00e9 en Moselle. Vous payez uniquement la formation, directement aupr\u00e8s du centre partenaire.",
   },
   {
-    question: 'Faut-il un certificat médical ?',
+    question: 'Faut-il un certificat m\u00e9dical ?',
     answer:
-      'Non, le certificat médical n\'est plus obligatoire pour passer le permis plaisance depuis 2022. Vous n\'avez besoin que d\'une pièce d\'identité, de 2 photos et du timbre fiscal.',
+      "Non, le certificat m\u00e9dical n'est plus obligatoire pour passer le permis plaisance depuis 2022. Vous n'avez besoin que d'une pi\u00e8ce d'identit\u00e9, de 2 photos et du timbre fiscal.",
   },
   {
-    question: 'Quelle est la validité du permis bateau ?',
+    question: 'Quelle est la validit\u00e9 du permis bateau ?',
     answer:
-      'Le permis bateau est valable à vie. Il n\'y a pas de renouvellement à effectuer, contrairement au permis de conduire. Une fois obtenu, il est définitif.',
+      "Le permis bateau est valable \u00e0 vie. Il n'y a pas de renouvellement \u00e0 effectuer, contrairement au permis de conduire. Une fois obtenu, il est d\u00e9finitif.",
   },
   {
-    question: 'Où se déroule la formation pratique ?',
+    question: 'Comment choisir entre les diff\u00e9rents permis ?',
     answer:
-      'La formation pratique se déroule sur la Moselle, au port de plaisance de Metz. Vous apprendrez les manœuvres, l\'homme à la mer et le passage d\'écluses en conditions réelles de navigation.',
+      "Tout d\u00e9pend de votre usage : le permis c\u00f4tier est le plus polyvalent (mer + rivi\u00e8res), le permis fluvial est id\u00e9al pour la Moselle et les canaux, et l'extension hauturi\u00e8re est n\u00e9cessaire pour naviguer au large sans limite de distance. Notre plateforme vous aide \u00e0 comparer les formules.",
   },
 ]
 
@@ -74,11 +74,11 @@ export default function FAQ() {
             FAQ
           </span>
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-900 mb-4">
-            Questions fréquentes
+            {"Questions fr\u00e9quentes"}
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Tout ce que vous devez savoir sur le permis bateau à Metz.
-            Une question ? <a href="#contact" className="text-ocean-600 hover:underline">Contactez-nous</a>.
+            {"Tout ce que vous devez savoir sur le permis bateau \u00e0 Metz. Une question\u00a0? "}
+            <a href="#contact" className="text-ocean-600 hover:underline">{"Demandez \u00e0 \u00eatre rappel\u00e9"}</a>.
           </p>
         </div>
 

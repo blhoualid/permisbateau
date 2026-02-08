@@ -16,7 +16,7 @@ export default function Header() {
   const navLinks = [
     { href: '/#formations', label: 'Formations' },
     { href: '/#tarifs', label: 'Tarifs' },
-    { href: '/#avantages', label: 'Pourquoi nous' },
+    { href: '/#comment-ca-marche', label: 'Comment \u00e7a marche' },
     { href: '/blog', label: 'Blog' },
     { href: '/#faq', label: 'FAQ' },
   ]
@@ -86,7 +86,7 @@ export default function Header() {
             href="/#contact"
             className="btn-primary !py-3 !px-6 !text-base"
           >
-            Être rappelé
+            {"Être rappel\u00e9"}
           </Link>
         </nav>
 
@@ -140,7 +140,7 @@ export default function Header() {
             onClick={() => setIsMobileMenuOpen(false)}
             className="btn-primary text-center mt-2"
           >
-            Être rappelé gratuitement
+            {"Être rappel\u00e9 gratuitement"}
           </Link>
         </nav>
       </div>

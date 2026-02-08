@@ -6,9 +6,9 @@ export default function Avantages() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
-      title: '97% de réussite',
+      title: 'Centres agr\u00e9\u00e9s v\u00e9rifi\u00e9s',
       description:
-        'Notre taux de réussite dès le premier passage est bien au-dessus de la moyenne nationale (80%). Notre méthode a fait ses preuves.',
+        "Nous travaillons uniquement avec des centres de formation disposant d'un agr\u00e9ment pr\u00e9fectoral en Moselle.",
     },
     {
       icon: (
@@ -16,9 +16,9 @@ export default function Avantages() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
-      title: 'Paiement facilit\u00e9',
+      title: '100% gratuit pour vous',
       description:
-        'Paiement en 3 fois sans frais pour toutes nos formations. Plusieurs formules pour s\u2019adapter \u00e0 votre budget.',
+        "Le service de mise en relation est enti\u00e8rement gratuit. Vous ne payez que la formation directement aupr\u00e8s du centre partenaire.",
     },
     {
       icon: (
@@ -26,9 +26,9 @@ export default function Avantages() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      title: 'E-learning illimité',
+      title: 'Informations fiables',
       description:
-        'Accédez à notre plateforme de révision 24h/24 avec plus de 600 questions, des fiches de cours et un suivi de progression.',
+        "Tarifs, programmes, dur\u00e9es : toutes les informations sont v\u00e9rifi\u00e9es et mises \u00e0 jour r\u00e9guli\u00e8rement aupr\u00e8s des centres partenaires.",
     },
     {
       icon: (
@@ -37,9 +37,9 @@ export default function Avantages() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
       ),
-      title: 'Pratique sur la Moselle',
+      title: 'Proche de chez vous',
       description:
-        'Formation pratique au port de plaisance de Metz. Conditions réelles : écluses, courant, trafic fluvial. Vous serez prêt.',
+        "Des centres partenaires \u00e0 Metz et dans toute la Moselle : Thionville, Pont-\u00e0-Mousson, Sarreguemines et environs.",
     },
     {
       icon: (
@@ -47,39 +47,37 @@ export default function Avantages() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
-      title: 'Stages week-end',
+      title: 'Rappel sous 24h',
       description:
-        'Emploi du temps chargé ? Notre stage intensif en un week-end vous permet d\'obtenir votre permis rapidement.',
+        "D\u00e8s votre demande envoy\u00e9e, un centre partenaire vous rappelle sous 24h pour r\u00e9pondre \u00e0 toutes vos questions.",
     },
     {
       icon: (
         <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
         </svg>
       ),
-      title: 'Petits groupes',
+      title: 'Flexibilit\u00e9 totale',
       description:
-        'Maximum 10 élèves par session pour un accompagnement personnalisé. Votre formateur connaît votre niveau et s\'adapte.',
+        "Stages week-end, cours du soir, formations acc\u00e9l\u00e9r\u00e9es : trouvez la formule qui s'adapte \u00e0 votre emploi du temps.",
     },
   ]
 
   return (
     <section id="avantages" className="section-padding gradient-navy relative overflow-hidden">
-      {/* Decorations */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-ocean-500/10 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl" />
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-ocean-400/10 rounded-full translate-x-1/3 translate-y-1/3 blur-3xl" />
 
       <div className="container-custom relative z-10">
         <div className="text-center mb-16">
           <span className="inline-block text-ocean-300 font-semibold text-sm uppercase tracking-wider mb-3">
-            Pourquoi nous choisir
+            Pourquoi passer par nous
           </span>
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-white mb-4">
-            L&apos;excellence nautique à Metz
+            {"Votre recherche simplifi\u00e9e"}
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
-            Un centre de formation agréé qui place la réussite et la satisfaction de ses élèves au
-            premier plan.
+            {"Une plateforme ind\u00e9pendante qui vous aide \u00e0 trouver la formation permis bateau id\u00e9ale \u00e0 Metz et en Moselle."}
           </p>
         </div>
 

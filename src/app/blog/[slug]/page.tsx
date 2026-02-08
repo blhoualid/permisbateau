@@ -64,7 +64,7 @@ export default async function ArticlePage({ params }: PageProps) {
     '@type': 'Article',
     headline: article.title,
     description: article.metaDescription,
-    image: `https://permis-bateau-metz.fr${article.image}`,
+    image: article.image,
     datePublished: article.date,
     dateModified: article.date,
     author: {
@@ -160,6 +160,19 @@ export default async function ArticlePage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* Featured image */}
+      <section className="bg-white">
+        <div className="container-custom max-w-4xl -mt-8 relative z-10">
+          <div className="aspect-video rounded-2xl overflow-hidden shadow-xl">
+            <img
+              src={article.image}
+              alt={article.imageAlt}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Article content */}
       <section className="section-padding bg-white">
         <div className="container-custom max-w-4xl">
@@ -174,10 +187,10 @@ export default async function ArticlePage({ params }: PageProps) {
               {/* CTA in article */}
               <div className="mt-12 p-8 bg-gradient-to-br from-ocean-50 to-navy-50 rounded-2xl border border-ocean-100">
                 <h3 className="font-heading text-xl font-bold text-navy-900 mb-3">
-                  Envie de passer votre permis bateau ?
+                  {"Envie de passer votre permis bateau ?"}
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Inscrivez-vous d&egrave;s maintenant. Plusieurs formules adapt&eacute;es &agrave; votre projet.
+                  {"Inscrivez-vous d\u00e8s maintenant. Plusieurs formules adapt\u00e9es \u00e0 votre projet."}
                 </p>
                 <Link href="/#contact" className="btn-primary !py-3">
                   Demander un rappel gratuit
@@ -191,7 +204,7 @@ export default async function ArticlePage({ params }: PageProps) {
                 {/* Quick info card */}
                 <div className="bg-gray-50 rounded-xl p-6">
                   <h4 className="font-bold text-navy-900 text-sm uppercase tracking-wider mb-4">
-                    En r&eacute;sum&eacute;
+                    {"En r\u00e9sum\u00e9"}
                   </h4>
                   <ul className="space-y-3 text-sm text-gray-600">
                     <li className="flex items-center gap-2">
@@ -213,13 +226,13 @@ export default async function ArticlePage({ params }: PageProps) {
                 <div className="gradient-navy rounded-xl p-6 text-center">
                   <p className="text-white font-bold text-lg mb-2">Nos formations</p>
                   <p className="text-white/60 text-sm mb-4">
-                    C&ocirc;tier, fluvial, hauturier
+                    {"C\u00f4tier, fluvial, hauturier"}
                   </p>
                   <Link
                     href="/#contact"
                     className="btn-primary !py-2 !px-4 !text-sm w-full"
                   >
-                    S&apos;inscrire
+                    {"S'inscrire"}
                   </Link>
                 </div>
               </div>
@@ -241,17 +254,13 @@ export default async function ArticlePage({ params }: PageProps) {
                 href={`/blog/${a.slug}`}
                 className="card group"
               >
-                <div className="aspect-video bg-gradient-to-br from-ocean-100 to-navy-100 relative overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <svg
-                      className="w-12 h-12 text-ocean-300 group-hover:scale-110 transition-transform duration-300"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
-                    </svg>
-                  </div>
+                <div className="aspect-video relative overflow-hidden bg-gray-100">
+                  <img
+                    src={a.image}
+                    alt={a.imageAlt}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
                   <div className="absolute top-3 left-3">
                     <span className="bg-ocean-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">
                       {a.category}

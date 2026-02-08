@@ -4,6 +4,13 @@ const nextConfig: NextConfig = {
   output: 'standalone',
   images: {
     unoptimized: false,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+        pathname: '/photos/**',
+      },
+    ],
   },
   async headers() {
     return [

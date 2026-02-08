@@ -24,7 +24,7 @@ export const articles: Article[] = [
     date: '2026-01-15',
     readTime: '8 min',
     category: 'Guide',
-    image: '/blog/guide-permis-bateau-metz.jpg',
+    image: 'https://images.pexels.com/photos/1796705/pexels-photo-1796705.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Formation permis bateau sur la Moselle \u00e0 Metz',
     content: `
 <p>Passer son <strong>permis bateau \u00e0 Metz</strong> est une d\u00e9marche accessible \u00e0 tous, \u00e0 condition de bien se pr\u00e9parer. Que vous souhaitiez naviguer sur la Moselle, les lacs vosgiens ou partir en mer, ce guide vous accompagne pas \u00e0 pas.</p>
@@ -54,7 +54,7 @@ export const articles: Article[] = [
 <h2>Le d\u00e9roulement de la formation \u00e0 Metz</h2>
 
 <h3>La th\u00e9orie</h3>
-<p>La formation th\u00e9orique comprend entre <strong>5 et 8 heures de cours</strong> r\u00e9parties sur plusieurs s\u00e9ances. Chez Permis Bateau Metz, nous proposons des cours du soir en semaine et des stages intensifs le week-end. Vous acc\u00e9dez \u00e9galement \u00e0 notre plateforme d\u2019e-learning pour r\u00e9viser \u00e0 votre rythme.</p>
+<p>La formation th\u00e9orique comprend entre <strong>5 et 8 heures de cours</strong> r\u00e9parties sur plusieurs s\u00e9ances. Les centres agréés de Metz proposent généralement des cours du soir en semaine et des stages intensifs le week-end. Vous acc\u00e9dez \u00e9galement \u00e0 une plateforme d\u2019e-learning pour r\u00e9viser \u00e0 votre rythme.</p>
 
 <p>Les th\u00e8mes abord\u00e9s couvrent la <strong>r\u00e9glementation maritime</strong>, le balisage, la s\u00e9curit\u00e9, la m\u00e9t\u00e9o et les r\u00e8gles de navigation d\u00e9finies par la <a href="https://www.mer.gouv.fr/" target="_blank" rel="noopener noreferrer">Direction des Affaires Maritimes</a>.</p>
 
@@ -101,7 +101,7 @@ export const articles: Article[] = [
     date: '2026-01-28',
     readTime: '6 min',
     category: 'Conseils',
-    image: '/blog/cotier-vs-fluvial.jpg',
+    image: 'https://images.pexels.com/photos/4133413/pexels-photo-4133413.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Comparaison permis c\u00f4tier et fluvial',
     content: `
 <p>Vous souhaitez passer votre permis bateau mais vous h\u00e9sitez entre le <strong>permis c\u00f4tier</strong> et le <strong>permis fluvial</strong> ? Voici un comparatif d\u00e9taill\u00e9 pour vous aider \u00e0 faire le bon choix.</p>
@@ -157,11 +157,11 @@ export const articles: Article[] = [
     metaDescription:
       'D\u00e9couvrez les 5 erreurs les plus fr\u00e9quentes \u00e0 l\u2019examen du permis bateau et nos conseils pour les \u00e9viter. R\u00e9ussissez du premier coup !',
     excerpt:
-      '\u00c9vitez ces pi\u00e8ges classiques de l\u2019examen du permis bateau gr\u00e2ce \u00e0 nos conseils d\u2019experts. 97% de nos \u00e9l\u00e8ves r\u00e9ussissent du premier coup.',
+      '\u00c9vitez ces pi\u00e8ges classiques de l\u2019examen du permis bateau gr\u00e2ce \u00e0 nos conseils d\u2019experts. La majorit\u00e9 des candidats bien pr\u00e9par\u00e9s r\u00e9ussissent du premier coup.',
     date: '2026-02-01',
     readTime: '5 min',
     category: 'Conseils',
-    image: '/blog/erreurs-permis-bateau.jpg',
+    image: 'https://images.pexels.com/photos/4384147/pexels-photo-4384147.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Conseils pour r\u00e9ussir l\u2019examen du permis bateau',
     content: `
 <p>Avec un <strong>taux de r\u00e9ussite national d\u2019environ 80%</strong>, l\u2019examen du permis bateau est loin d\u2019\u00eatre insurmontable. Pourtant, certaines erreurs reviennent r\u00e9guli\u00e8rement. Voici comment les \u00e9viter.</p>
@@ -186,7 +186,7 @@ export const articles: Article[] = [
 
 <h2>Erreur n\u00b03 : Ne pas assez s\u2019entra\u00eener en ligne</h2>
 
-<p>L\u2019examen se d\u00e9roule sous forme de <strong>QCM dans un centre La Poste</strong>. La meilleure pr\u00e9paration est de multiplier les tests en ligne. Chez Permis Bateau Metz, nous offrons un acc\u00e8s illimit\u00e9 \u00e0 notre plateforme de r\u00e9vision avec plus de <strong>600 questions</strong>.</p>
+<p>L\u2019examen se d\u00e9roule sous forme de <strong>QCM dans un centre La Poste</strong>. La meilleure pr\u00e9paration est de multiplier les tests en ligne. Les centres partenaires offrent généralement un acc\u00e8s illimit\u00e9 \u00e0 une plateforme de r\u00e9vision en ligne avec plus de <strong>600 questions</strong>.</p>
 
 <h2>Erreur n\u00b04 : Ignorer la m\u00e9t\u00e9o marine</h2>
 
@@ -210,7 +210,7 @@ export const articles: Article[] = [
     date: '2026-02-05',
     readTime: '7 min',
     category: 'Navigation',
-    image: '/blog/naviguer-moselle.jpg',
+    image: 'https://images.pexels.com/photos/15759842/pexels-photo-15759842.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Navigation sur la Moselle pr\u00e8s de Metz',
     content: `
 <p>La <strong>Moselle</strong> est l\u2019une des plus belles rivi\u00e8res navigables de France. De Metz \u00e0 Coblence en passant par Thionville et Trèves, elle offre des paysages magnifiques et une navigation vari\u00e9e.</p>
@@ -281,17 +281,17 @@ export const articles: Article[] = [
     date: '2026-01-20',
     readTime: '6 min',
     category: 'Tarifs',
-    image: '/blog/cout-permis-bateau.jpg',
+    image: 'https://images.pexels.com/photos/5466785/pexels-photo-5466785.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Tarifs et co\u00fbts du permis bateau en 2026',
     content: `
-<p>Le co\u00fbt total du permis bateau comprend plusieurs \u00e9l\u00e9ments. Voici le d\u00e9tail complet pour <strong>2026</strong>, avec nos tarifs \u00e0 Metz parmi les plus comp\u00e9titifs de la r\u00e9gion.</p>
+<p>Le co\u00fbt total du permis bateau comprend plusieurs \u00e9l\u00e9ments. Voici le d\u00e9tail complet pour <strong>2026</strong>, avec les tarifs constat\u00e9s \u00e0 Metz parmi les plus comp\u00e9titifs de la r\u00e9gion.</p>
 
 <h2>Les composantes du prix</h2>
 
 <h3>1. La formation (bateau-\u00e9cole)</h3>
 <p>C\u2019est le poste principal. Le tarif varie selon l\u2019\u00e9cole et la formule choisie. En France, le prix moyen est de <strong>350\u20ac \u00e0 450\u20ac</strong> par option (c\u00f4tier ou fluvial).</p>
 
-<p>Chez <strong>Permis Bateau Metz</strong>, nos tarifs sont parmi les plus comp\u00e9titifs :</p>
+<p>Les tarifs constat\u00e9s \u00e0 Metz sont parmi les plus comp\u00e9titifs de la r\u00e9gion :</p>
 
 <ul>
 <li>Option c\u00f4ti\u00e8re : <strong>445\u20ac</strong></li>
@@ -330,7 +330,7 @@ export const articles: Article[] = [
 <p>Certaines formations au permis bateau sont \u00e9ligibles au <a href="https://www.moncompteformation.gouv.fr/" target="_blank" rel="noopener noreferrer">CPF</a>. Renseignez-vous sur votre \u00e9ligibilit\u00e9.</p>
 
 <h3>Le paiement en plusieurs fois</h3>
-<p>Chez Permis Bateau Metz, nous proposons le <strong>paiement en 3 fois sans frais</strong> pour toutes nos formations.</p>
+<p>Les centres agréés de Metz proposent généralement le <strong>paiement en 3 fois sans frais</strong> pour toutes les formations proposées.</p>
 
 <h2>Comparatif r\u00e9gional des prix</h2>
 
@@ -342,7 +342,7 @@ export const articles: Article[] = [
 <li><strong>Permis Bateau Metz</strong> : des tarifs comp\u00e9titifs avec un enseignement de qualit\u00e9</li>
 </ul>
 
-<blockquote>Le prix ne doit pas \u00eatre le seul crit\u00e8re de choix. La qualit\u00e9 de l\u2019enseignement, le taux de r\u00e9ussite et l\u2019accompagnement sont essentiels. Chez Permis Bateau Metz, nous combinons les trois : prix comp\u00e9titif, 97% de r\u00e9ussite et suivi personnalis\u00e9.</blockquote>
+<blockquote>Le prix ne doit pas \u00eatre le seul crit\u00e8re de choix. La qualit\u00e9 de l\u2019enseignement, le taux de r\u00e9ussite et l\u2019accompagnement sont essentiels. Les meilleurs centres de Metz combinent les trois : prix comp\u00e9titif, taux de r\u00e9ussite \u00e9lev\u00e9 et suivi personnalis\u00e9.</blockquote>
 `,
   },
   {
@@ -356,7 +356,7 @@ export const articles: Article[] = [
     date: '2026-02-03',
     readTime: '5 min',
     category: 'Formations',
-    image: '/blog/stage-accelere-metz.jpg',
+    image: 'https://images.pexels.com/photos/12204727/pexels-photo-12204727.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'Stage permis bateau acc\u00e9l\u00e9r\u00e9 le week-end \u00e0 Metz',
     content: `
 <p>Vous souhaitez obtenir votre <strong>permis bateau rapidement</strong> ? Notre stage acc\u00e9l\u00e9r\u00e9 \u00e0 Metz vous permet de suivre toute la formation en un seul week-end.</p>
@@ -410,7 +410,7 @@ export const articles: Article[] = [
 
 <h2>Calendrier des prochains stages</h2>
 
-<p>Nous organisons des stages acc\u00e9l\u00e9r\u00e9s <strong>2 \u00e0 3 week-ends par mois</strong>, de mars \u00e0 octobre. Les places sont limit\u00e9es \u00e0 <strong>10 participants maximum</strong> pour garantir un encadrement optimal.</p>
+<p>Les centres agréés organisent des stages acc\u00e9l\u00e9r\u00e9s <strong>2 \u00e0 3 week-ends par mois</strong>, de mars \u00e0 octobre. Les places sont limit\u00e9es \u00e0 <strong>10 participants maximum</strong> pour garantir un encadrement optimal.</p>
 
 <p>Consultez notre calendrier et r\u00e9servez votre place sur <a href="https://permis-bateau-metz.fr/#contact" rel="noopener">notre formulaire de contact</a>.</p>
 
@@ -418,7 +418,7 @@ export const articles: Article[] = [
 
 <p>L\u2019examen th\u00e9orique peut \u00eatre pass\u00e9 d\u00e8s le lundi suivant le stage, dans un <a href="https://www.laposte.fr/examen-permis-bateau" target="_blank" rel="noopener noreferrer">centre d\u2019examen La Poste</a> \u00e0 Metz ou alentours. Les sessions sont disponibles quasiment tous les jours.</p>
 
-<blockquote>97% de nos \u00e9l\u00e8ves en stage acc\u00e9l\u00e9r\u00e9 r\u00e9ussissent l\u2019examen du premier coup. Le secret ? Une pr\u00e9paration intensive, un petit groupe et un formateur d\u00e9di\u00e9.</blockquote>
+<blockquote>La majorit\u00e9 des candidats en stage acc\u00e9l\u00e9r\u00e9 r\u00e9ussissent l\u2019examen du premier coup. Le secret ? Une pr\u00e9paration intensive, un petit groupe et un formateur d\u00e9di\u00e9.</blockquote>
 `,
   },
   {
@@ -432,7 +432,7 @@ export const articles: Article[] = [
     date: '2026-01-10',
     readTime: '7 min',
     category: 'R\u00e9glementation',
-    image: '/blog/reglementation-plaisance.jpg',
+    image: 'https://images.pexels.com/photos/9065471/pexels-photo-9065471.jpeg?auto=compress&cs=tinysrgb&w=940',
     imageAlt: 'R\u00e9glementation du permis plaisance en France',
     content: `
 <p>La r\u00e9glementation du permis plaisance \u00e9volue r\u00e9guli\u00e8rement. Voici un point complet sur les <strong>r\u00e8gles en vigueur en 2026</strong> et ce qui a chang\u00e9 r\u00e9cemment.</p>

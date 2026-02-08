@@ -11,11 +11,13 @@ export default function ContactForm() {
     formation: '',
     message: '',
     horaire: '',
+    consentement: false,
   })
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    if (!formData.consentement) return
     setStatus('loading')
 
     try {
@@ -35,6 +37,7 @@ export default function ContactForm() {
           formation: '',
           message: '',
           horaire: '',
+          consentement: false,
         })
       } else {
         setStatus('error')
@@ -47,7 +50,12 @@ export default function ContactForm() {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
   ) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value })
+    const { name, value, type } = e.target
+    if (type === 'checkbox') {
+      setFormData({ ...formData, [name]: (e.target as HTMLInputElement).checked })
+    } else {
+      setFormData({ ...formData, [name]: value })
+    }
   }
 
   return (
@@ -60,28 +68,13 @@ export default function ContactForm() {
               Contact
             </span>
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy-900 mb-6">
-              Demandez &agrave; &ecirc;tre rappel&eacute; gratuitement
+              {"Être rappel\u00e9 par un partenaire"}
             </h2>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              Remplissez ce formulaire et nous vous rappelons sous 24h pour
-              r&eacute;pondre &agrave; toutes vos questions et vous accompagner dans votre inscription.
+              {"Remplissez ce formulaire et un centre de formation agr\u00e9\u00e9 de votre r\u00e9gion vous rappelle sous 24h pour r\u00e9pondre \u00e0 toutes vos questions."}
             </p>
 
             <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-ocean-100 flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-ocean-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-navy-900">T&eacute;l&eacute;phone</h3>
-                  <a href="tel:+33387000000" className="text-ocean-600 hover:underline">
-                    03 87 00 00 00
-                  </a>
-                </div>
-              </div>
-
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-xl bg-ocean-100 flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-ocean-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -89,7 +82,7 @@ export default function ContactForm() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-navy-900">Email</h3>
+                  <h3 className="font-semibold text-navy-900">Email de la plateforme</h3>
                   <a href="mailto:contact@permis-bateau-metz.fr" className="text-ocean-600 hover:underline">
                     contact@permis-bateau-metz.fr
                   </a>
@@ -99,14 +92,13 @@ export default function ContactForm() {
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-xl bg-ocean-100 flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-ocean-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-navy-900">Adresse</h3>
-                  <p className="text-gray-600">
-                    Port de Plaisance<br />57000 Metz
+                  <h3 className="font-semibold text-navy-900">{"Comment \u00e7a marche\u00a0?"}</h3>
+                  <p className="text-gray-600 text-sm">
+                    {"Vous remplissez le formulaire, nous transmettons votre demande \u00e0 un centre agr\u00e9\u00e9 qui vous rappelle directement."}
                   </p>
                 </div>
               </div>
@@ -114,16 +106,23 @@ export default function ContactForm() {
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-xl bg-ocean-100 flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-ocean-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-navy-900">Horaires</h3>
-                  <p className="text-gray-600">
-                    Lun-Ven : 9h-19h<br />Samedi : 9h-17h
+                  <h3 className="font-semibold text-navy-900">{"Donn\u00e9es prot\u00e9g\u00e9es"}</h3>
+                  <p className="text-gray-600 text-sm">
+                    {"Vos informations sont trait\u00e9es conform\u00e9ment au RGPD et ne sont transmises qu'au partenaire concern\u00e9."}
                   </p>
                 </div>
               </div>
+            </div>
+
+            {/* Disclaimer visible */}
+            <div className="mt-8 p-4 bg-ocean-50 border border-ocean-200 rounded-xl">
+              <p className="text-sm text-ocean-800">
+                {"Plateforme ind\u00e9pendante de mise en relation. Nous ne sommes pas une \u00e9cole de navigation. Votre demande est transmise \u00e0 un centre de formation agr\u00e9\u00e9 partenaire."}
+              </p>
             </div>
           </div>
 
@@ -138,10 +137,10 @@ export default function ContactForm() {
                     </svg>
                   </div>
                   <h3 className="font-heading text-2xl font-bold text-navy-900 mb-3">
-                    Demande envoy&eacute;e !
+                    {"Demande envoy\u00e9e\u00a0!"}
                   </h3>
                   <p className="text-gray-600 mb-6">
-                    Nous vous rappelons dans les 24h. Pr&eacute;parez vos questions !
+                    {"Un centre de formation partenaire vous rappellera sous 24h."}
                   </p>
                   <button
                     onClick={() => setStatus('idle')}
@@ -232,12 +231,12 @@ export default function ContactForm() {
                         className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-ocean-500 focus:ring-2 focus:ring-ocean-500/20 transition-all outline-none bg-white"
                       >
                         <option value="">Choisir...</option>
-                        <option value="cotier">Option C&ocirc;ti&egrave;re (445&euro;)</option>
-                        <option value="fluvial">Th&eacute;orie Eaux Int&eacute;rieures (225&euro;)</option>
-                        <option value="pack">C&ocirc;ti&egrave;re + Eaux Int&eacute;rieures (545&euro;)</option>
-                        <option value="hauturier">Extension Hauturi&egrave;re (420&euro;)</option>
-                        <option value="remise-a-niveau">Remise &agrave; niveau (90&euro;)</option>
-                        <option value="info">Je veux juste des infos</option>
+                        <option value="cotier">Option C&ocirc;ti&egrave;re</option>
+                        <option value="fluvial">Th&eacute;orie Eaux Int&eacute;rieures</option>
+                        <option value="pack">C&ocirc;ti&egrave;re + Eaux Int&eacute;rieures</option>
+                        <option value="hauturier">Extension Hauturi&egrave;re</option>
+                        <option value="remise-a-niveau">Remise &agrave; niveau</option>
+                        <option value="info">{"Je veux juste des informations"}</option>
                       </select>
                     </div>
                     <div>
@@ -275,9 +274,26 @@ export default function ContactForm() {
                     />
                   </div>
 
+                  {/* Consent checkbox - MANDATORY */}
+                  <div className="flex items-start gap-3">
+                    <input
+                      type="checkbox"
+                      id="consentement"
+                      name="consentement"
+                      required
+                      checked={formData.consentement}
+                      onChange={handleChange}
+                      className="mt-1 w-4 h-4 rounded border-gray-300 text-ocean-600 focus:ring-ocean-500"
+                    />
+                    <label htmlFor="consentement" className="text-sm text-gray-600">
+                      {"J'accepte d'\u00eatre recontact\u00e9(e) et que ma demande soit transmise \u00e0 un centre de formation partenaire. "}
+                      <span className="text-red-500">*</span>
+                    </label>
+                  </div>
+
                   <button
                     type="submit"
-                    disabled={status === 'loading'}
+                    disabled={status === 'loading' || !formData.consentement}
                     className="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {status === 'loading' ? (
@@ -289,22 +305,22 @@ export default function ContactForm() {
                         Envoi en cours...
                       </span>
                     ) : (
-                      'Demander un rappel gratuit'
+                      "\u00catre rappel\u00e9 gratuitement"
                     )}
                   </button>
 
                   {status === 'error' && (
                     <p className="text-red-600 text-sm text-center">
-                      Une erreur est survenue. Veuillez r&eacute;essayer ou nous appeler directement au 03 87 00 00 00.
+                      {"Une erreur est survenue. Veuillez r\u00e9essayer ou nous contacter \u00e0 contact@permis-bateau-metz.fr."}
                     </p>
                   )}
 
                   <p className="text-xs text-gray-400 text-center">
-                    En soumettant ce formulaire, vous acceptez d&apos;&ecirc;tre recontact&eacute; par Permis Bateau Metz.
-                    Vos donn&eacute;es sont trait&eacute;es conform&eacute;ment &agrave; notre{' '}
-                    <a href="/mentions-legales" className="underline hover:text-gray-600">
-                      politique de confidentialit&eacute;
-                    </a>.
+                    {"En soumettant ce formulaire, vous acceptez que vos donn\u00e9es soient transmises \u00e0 un centre de formation partenaire. Vos donn\u00e9es sont trait\u00e9es conform\u00e9ment \u00e0 notre "}
+                    <a href="/politique-de-confidentialite" className="underline hover:text-gray-600">
+                      {"politique de confidentialit\u00e9"}
+                    </a>
+                    {". Plateforme ind\u00e9pendante \u2014 mise en relation avec des partenaires locaux."}
                   </p>
                 </form>
               )}
