@@ -16,7 +16,7 @@ export const articles: Article[] = [
   {
     slug: 'comment-passer-permis-bateau-metz-guide-complet',
     title: 'Comment passer son permis bateau \u00e0 Metz : guide complet 2026',
-    metaTitle: 'Passer son Permis Bateau \u00e0 Metz : Guide Complet 2026',
+    metaTitle: 'Permis Bateau Metz : Guide Complet 2026',
     metaDescription:
       'Tout savoir pour passer son permis bateau \u00e0 Metz en 2026 : d\u00e9marches, documents, \u00e9preuves, tarifs et conseils. Guide complet par Permis Bateau Metz.',
     excerpt:
@@ -93,7 +93,7 @@ export const articles: Article[] = [
   {
     slug: 'permis-cotier-ou-fluvial-lequel-choisir',
     title: 'Permis c\u00f4tier ou permis fluvial : lequel choisir ?',
-    metaTitle: 'Permis C\u00f4tier ou Fluvial : Quel Permis Bateau Choisir ?',
+    metaTitle: 'Permis C\u00f4tier ou Fluvial : Lequel Choisir ?',
     metaDescription:
       'Permis c\u00f4tier vs fluvial : diff\u00e9rences, avantages, tarifs et conseils pour choisir le bon permis bateau selon votre projet de navigation.',
     excerpt:
@@ -153,7 +153,7 @@ export const articles: Article[] = [
   {
     slug: '5-erreurs-eviter-examen-permis-bateau',
     title: 'Les 5 erreurs \u00e0 \u00e9viter pour r\u00e9ussir son permis bateau du premier coup',
-    metaTitle: '5 Erreurs \u00e0 \u00c9viter pour R\u00e9ussir son Permis Bateau',
+    metaTitle: '5 Erreurs \u00e0 \u00c9viter au Permis Bateau',
     metaDescription:
       'D\u00e9couvrez les 5 erreurs les plus fr\u00e9quentes \u00e0 l\u2019examen du permis bateau et nos conseils pour les \u00e9viter. R\u00e9ussissez du premier coup !',
     excerpt:
@@ -202,7 +202,7 @@ export const articles: Article[] = [
   {
     slug: 'naviguer-sur-la-moselle-guide-pratique',
     title: 'Naviguer sur la Moselle : tout ce qu\u2019il faut savoir',
-    metaTitle: 'Naviguer sur la Moselle : Guide Pratique de Navigation',
+    metaTitle: 'Naviguer sur la Moselle : Guide Pratique',
     metaDescription:
       'Guide complet pour naviguer sur la Moselle : r\u00e9glementation, \u00e9cluses, itin\u00e9raires, conseils pratiques. Tout pour profiter de la navigation fluviale en Lorraine.',
     excerpt:
@@ -273,7 +273,7 @@ export const articles: Article[] = [
   {
     slug: 'combien-coute-permis-bateau-2026-tarifs-financements',
     title: 'Combien co\u00fbte le permis bateau en 2026 ? Tarifs et financements',
-    metaTitle: 'Prix Permis Bateau 2026 : Tarifs Complets et Financements',
+    metaTitle: 'Prix du Permis Bateau 2026 : Tous les Tarifs',
     metaDescription:
       'Quel est le prix du permis bateau en 2026 ? D\u00e9tail des co\u00fbts : formation, timbre fiscal, examen. Comparatif des tarifs et options de financement.',
     excerpt:
@@ -348,7 +348,7 @@ export const articles: Article[] = [
   {
     slug: 'stage-permis-bateau-accelere-metz-weekend',
     title: 'Stage permis bateau acc\u00e9l\u00e9r\u00e9 \u00e0 Metz : obtenez votre permis en un week-end',
-    metaTitle: 'Stage Permis Bateau Acc\u00e9l\u00e9r\u00e9 Metz : Permis en 1 Week-end',
+    metaTitle: 'Stage Acc\u00e9l\u00e9r\u00e9 Permis Bateau Metz : 1 Week-end',
     metaDescription:
       'Passez votre permis bateau en un week-end \u00e0 Metz gr\u00e2ce \u00e0 notre stage acc\u00e9l\u00e9r\u00e9. Formation intensive th\u00e9orie + pratique, examen rapide.',
     excerpt:
@@ -424,7 +424,7 @@ export const articles: Article[] = [
   {
     slug: 'reglementation-permis-plaisance-france-2026',
     title: 'R\u00e9glementation du permis plaisance en France : ce qui change en 2026',
-    metaTitle: 'R\u00e9glementation Permis Plaisance 2026 : Nouveaut\u00e9s et R\u00e8gles',
+    metaTitle: 'R\u00e9glementation Permis Plaisance 2026',
     metaDescription:
       'Tout sur la r\u00e9glementation du permis plaisance en France en 2026 : nouvelles r\u00e8gles, \u00e9quipements obligatoires, zones de navigation. Restez inform\u00e9.',
     excerpt:

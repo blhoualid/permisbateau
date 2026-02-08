@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://permis-bateau-metz.fr'),
   title: {
-    default: 'Permis Bateau Metz | Comparez les formations permis c\u00f4tier, fluvial & hauturier',
+    default: 'Permis Bateau Metz | Formations c\u00f4tier, fluvial & hauturier',
     template: '%s | Permis Bateau Metz',
   },
   description:
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     url: 'https://permis-bateau-metz.fr',
     siteName: 'Permis Bateau Metz',
-    title: 'Permis Bateau Metz | Comparez les formations et recevez un devis gratuit',
+    title: 'Permis Bateau Metz | Comparez et recevez un devis gratuit',
     description:
       'Plateforme ind\u00e9pendante d\u2019orientation permis bateau \u00e0 Metz. Comparez les formules c\u00f4tier, fluvial, hauturier et soyez rappel\u00e9 gratuitement par un centre agr\u00e9\u00e9.',
     images: [
