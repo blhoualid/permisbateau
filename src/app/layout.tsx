@@ -109,7 +109,6 @@ const organizationSchema = {
     { '@type': 'City', name: 'Woippy' },
     { '@type': 'City', name: 'Longeville-l\u00e8s-Metz' },
     { '@type': 'City', name: 'Pont-\u00e0-Mousson' },
-    { '@type': 'City', name: 'Sarreguemines' },
     { '@type': 'City', name: 'Forbach' },
     { '@type': 'City', name: 'Hayange' },
     { '@type': 'City', name: 'Fameck' },
