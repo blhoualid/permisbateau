@@ -21,10 +21,15 @@ export default function ContactForm() {
     setStatus('loading')
 
     try {
-      const response = await fetch('/api/contact', {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          access_key: 'ccf7536b-f7d5-4b10-b3a9-c95c8b17fd74',
+          subject: `Nouvelle demande permis bateau - ${formData.formation}`,
+          from_name: `${formData.prenom} ${formData.nom}`,
+          ...formData,
+        }),
       })
 
       if (response.ok) {
