@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import { PostHogProvider } from '@/components/PostHogProvider'
 
 export const viewport: Viewport = {
   themeColor: '#0c2340',
@@ -199,9 +200,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {/* End Google Tag Manager (noscript) */}
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <PostHogProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </PostHogProvider>
       </body>
     </html>
   )
