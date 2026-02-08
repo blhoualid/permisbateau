@@ -11,8 +11,11 @@ export default function Tarifs() {
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-900 mb-4">
             {"Combien co\u00fbte le permis bateau \u00e0 Metz\u00a0?"}
           </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-4">
             {"Voici les tarifs moyens constat\u00e9s aupr\u00e8s des centres agr\u00e9\u00e9s de Metz et environs. Le timbre fiscal et les frais d'examen sont fix\u00e9s par l'\u00c9tat."}
+          </p>
+          <p className="text-gray-500 text-base max-w-3xl mx-auto">
+            {"Le co\u00fbt total du permis bateau comprend trois postes\u00a0: la formation aupr\u00e8s d\u2019un centre agr\u00e9\u00e9 (variable selon l\u2019\u00e9cole), le timbre fiscal obligatoire (achet\u00e9 en ligne sur timbres.impots.gouv.fr) et les frais d\u2019inscription \u00e0 l\u2019examen th\u00e9orique en centre La Poste. Le paiement en plusieurs fois est g\u00e9n\u00e9ralement propos\u00e9 par les centres partenaires."}
           </p>
         </div>
 

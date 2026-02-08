@@ -40,11 +40,11 @@ export default function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-white/80 mb-4 max-w-2xl mx-auto leading-relaxed">
-            {"Comparez les formations c\u00f4tier, fluvial et hauturier en Moselle."}
+            {"Comparez les formations c\u00f4tier, fluvial et hauturier en Moselle. Tarifs, programmes et centres agr\u00e9\u00e9s \u00e0 port\u00e9e de main."}
           </p>
 
           <p className="text-lg text-white/60 mb-10 max-w-xl mx-auto">
-            {"Informations, tarifs indicatifs et mise en relation avec des centres agr\u00e9\u00e9s pr\u00e8s de chez vous."}
+            {"Service gratuit et sans engagement. Remplissez le formulaire, recevez un rappel sous 24h d\u2019un centre partenaire agr\u00e9\u00e9 de Metz et environs. Permis c\u00f4tier d\u00e8s 445\u20ac, fluvial d\u00e8s 225\u20ac."}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

@@ -47,8 +47,11 @@ export default function CommentCaMarche() {
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-900 mb-4">
             {"Comment \u00e7a marche\u00a0?"}
           </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-4">
             {"Trouvez votre formation permis bateau en 3 \u00e9tapes. Service gratuit et sans engagement."}
+          </p>
+          <p className="text-gray-500 text-base max-w-3xl mx-auto">
+            {"Notre plateforme ind\u00e9pendante vous met en relation avec des centres de formation agr\u00e9\u00e9s en Moselle. Vous ne payez rien pour ce service : le co\u00fbt de la formation est r\u00e9gl\u00e9 directement aupr\u00e8s du centre partenaire qui vous recontacte."}
           </p>
         </div>
 
