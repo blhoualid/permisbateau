@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import posthog from 'posthog-js'
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -33,6 +34,10 @@ export default function ContactForm() {
       })
 
       if (response.ok) {
+        posthog.capture('form_submitted', {
+          formation: formData.formation,
+          horaire: formData.horaire,
+        })
         setStatus('success')
         setFormData({
           nom: '',
