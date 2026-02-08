@@ -35,8 +35,13 @@ export default function ContactForm() {
       if (response.ok) {
         if (typeof window !== 'undefined' && window.posthog) {
           window.posthog.capture('form_submitted', {
+            nom: formData.nom,
+            prenom: formData.prenom,
+            email: formData.email,
+            telephone: formData.telephone,
             formation: formData.formation,
             horaire: formData.horaire,
+            message: formData.message,
           })
         }
         setStatus('success')

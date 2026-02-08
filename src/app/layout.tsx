@@ -159,7 +159,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         {/* PostHog */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `!function(){var s=document.createElement("script");s.async=!0,s.src="/ingest/static/array.js",s.onload=function(){posthog.init("phc_QqF3iphmW2qFd6sBP1XmnQkNDcdPs0jmu9Zwe1Lgtei",{api_host:"/ingest",ui_host:"https://eu.posthog.com",person_profiles:"identified_only"})},document.head.appendChild(s)}();`,
+            __html: `!function(){var s=document.createElement("script");s.async=!0,s.src="/ingest/static/array.js",s.onload=function(){posthog.init("phc_QqF3iphmW2qFd6sBP1XmnQkNDcdPs0jmu9Zwe1Lgtei",{api_host:"/ingest",ui_host:"https://eu.posthog.com",person_profiles:"identified_only",autocapture:true,session_recording:{maskAllInputs:false,maskTextSelector:""}})},document.head.appendChild(s)}();`,
           }}
         />
         {/* End PostHog */}
