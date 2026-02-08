@@ -2,7 +2,7 @@ import Hero from '@/components/Hero'
 import Formations from '@/components/Formations'
 import Tarifs from '@/components/Tarifs'
 import Avantages from '@/components/Avantages'
-import Temoignages from '@/components/Temoignages'
+import CommentCaMarche from '@/components/CommentCaMarche'
 import FAQ from '@/components/FAQ'
 import ContactForm from '@/components/ContactForm'
 
@@ -12,8 +12,8 @@ export default function Home() {
       <Hero />
       <Formations />
       <Tarifs />
+      <CommentCaMarche />
       <Avantages />
-      <Temoignages />
       <FAQ />
       <ContactForm />
     </>

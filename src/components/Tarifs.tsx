@@ -6,13 +6,13 @@ export default function Tarifs() {
       <div className="container-custom">
         <div className="text-center mb-16">
           <span className="inline-block text-ocean-600 font-semibold text-sm uppercase tracking-wider mb-3">
-            Tarifs transparents
+            Tarifs indicatifs
           </span>
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-navy-900 mb-4">
-            {"Le coût total, sans surprise"}
+            {"Combien co\u00fbte le permis bateau \u00e0 Metz\u00a0?"}
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            {"Nous affichons tous les coûts\u00a0: formation, timbre fiscal et frais d'examen. Paiement en 3 fois sans frais possible."}
+            {"Voici les tarifs moyens constat\u00e9s aupr\u00e8s des centres agr\u00e9\u00e9s de Metz et environs. Le timbre fiscal et les frais d'examen sont fix\u00e9s par l'\u00c9tat."}
           </p>
         </div>
 
@@ -24,7 +24,7 @@ export default function Tarifs() {
                   Formation
                 </th>
                 <th className="py-4 px-4 font-heading font-bold text-navy-900 text-lg text-center">
-                  Formation
+                  Formation *
                 </th>
                 <th className="py-4 px-4 font-heading font-bold text-navy-900 text-lg text-center">
                   Timbre fiscal
@@ -33,42 +33,42 @@ export default function Tarifs() {
                   Examen
                 </th>
                 <th className="py-4 px-4 font-heading font-bold text-navy-900 text-lg text-center">
-                  Total
+                  Total estim&eacute;
                 </th>
               </tr>
             </thead>
             <tbody>
               {[
                 {
-                  name: 'Option Côtière',
+                  name: 'Option C\u00f4ti\u00e8re',
                   formation: '445\u20ac',
                   timbre: '78\u20ac',
                   examen: '30\u20ac',
                   total: '553\u20ac',
                 },
                 {
-                  name: 'Théorie Eaux Intérieures',
+                  name: 'Th\u00e9orie Eaux Int\u00e9rieures',
                   formation: '225\u20ac',
                   timbre: '78\u20ac',
                   examen: '30\u20ac',
                   total: '333\u20ac',
                 },
                 {
-                  name: 'Option Côtière + Eaux Intérieures',
+                  name: 'Option C\u00f4ti\u00e8re + Eaux Int\u00e9rieures',
                   formation: '545\u20ac',
                   timbre: '156\u20ac',
                   examen: '60\u20ac',
                   total: '761\u20ac',
                 },
                 {
-                  name: 'Extension Hauturière',
+                  name: 'Extension Hauturi\u00e8re',
                   formation: '420\u20ac',
                   timbre: '38\u20ac',
                   examen: '\u2014',
                   total: '458\u20ac',
                 },
                 {
-                  name: 'Cours Pratique - Remise à niveau',
+                  name: 'Cours Pratique - Remise \u00e0 niveau',
                   formation: '90\u20ac',
                   timbre: '\u2014',
                   examen: '\u2014',
@@ -106,11 +106,14 @@ export default function Tarifs() {
 
         <div className="mt-10 text-center">
           <p className="text-gray-500 text-sm mb-6">
-            {"* Le timbre fiscal et les frais d'examen sont fixés par l'État. Paiement de la formation en 3 fois sans frais sur demande."}
+            {"* Tarifs indicatifs constat\u00e9s aupr\u00e8s des centres de formation agr\u00e9\u00e9s de Metz et environs (2025). Les prix peuvent varier selon le centre partenaire. Le timbre fiscal et les frais d'examen sont fix\u00e9s par l'\u00c9tat."}
           </p>
           <Link href="#contact" className="btn-primary">
-            {"Demander un devis personnalisé"}
+            {"Recevoir un devis personnalis\u00e9"}
           </Link>
+          <p className="text-gray-400 text-xs mt-3">
+            {"Gratuit et sans engagement \u2014 un partenaire vous rappelle sous 24h"}
+          </p>
         </div>
       </div>
     </section>
