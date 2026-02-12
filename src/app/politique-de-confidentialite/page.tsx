@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Politique de Confidentialit\u00e9',
   description:
     'Politique de confidentialit\u00e9 et protection des donn\u00e9es personnelles de permis-bateau-metz.fr. Plateforme ind\u00e9pendante de mise en relation. Conformit\u00e9 RGPD.',
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
 }
 
 export default function PolitiqueDeConfidentialite() {
