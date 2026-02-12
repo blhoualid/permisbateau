@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Mentions L\u00e9gales',
   description:
     'Mentions l\u00e9gales du site permis-bateau-metz.fr. Plateforme ind\u00e9pendante d\u2019information et de mise en relation pour le permis bateau \u00e0 Metz.',
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
 }
 
 export default function MentionsLegales() {
