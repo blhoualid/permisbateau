@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: '%s | Permis Bateau Metz',
   },
   description:
-    'Trouvez et comparez les formations permis bateau \u00e0 Metz et en Moselle. C\u00f4tier, fluvial, hauturier : tarifs indicatifs, infos pratiques et mise en relation gratuite avec des centres agr\u00e9\u00e9s.',
+    'Passez votre permis bateau \u00e0 Metz d\u00e8s 225\u00a0\u20ac. Comparez les formations c\u00f4tier, fluvial et hauturier en Moselle et recevez un devis gratuit d\u2019un centre agr\u00e9\u00e9 en 24\u00a0h.',
   keywords: [
     'permis bateau metz',
     'permis c\u00f4tier metz',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: 'Permis Bateau Metz',
     title: 'Permis Bateau Metz | Comparez et recevez un devis gratuit',
     description:
-      'Plateforme ind\u00e9pendante d\u2019orientation permis bateau \u00e0 Metz. Comparez les formules c\u00f4tier, fluvial, hauturier et soyez rappel\u00e9 gratuitement par un centre agr\u00e9\u00e9.',
+      'Passez votre permis bateau \u00e0 Metz d\u00e8s 225\u00a0\u20ac. Comparez les formations c\u00f4tier, fluvial et hauturier en Moselle et recevez un devis gratuit d\u2019un centre agr\u00e9\u00e9 en 24\u00a0h.',
     images: [
       {
         url: '/og-image.jpg',
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Permis Bateau Metz | Comparez et trouvez votre formation',
     description:
-      'Comparez les formations permis bateau \u00e0 Metz. C\u00f4tier, fluvial, hauturier. Mise en relation gratuite avec un centre agr\u00e9\u00e9.',
+      'Passez votre permis bateau \u00e0 Metz d\u00e8s 225\u00a0\u20ac. Comparez c\u00f4tier, fluvial, hauturier et recevez un devis gratuit.',
     images: ['/og-image.jpg'],
   },
   robots: {
