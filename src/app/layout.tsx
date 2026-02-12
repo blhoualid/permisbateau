@@ -40,6 +40,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Permis Bateau Metz' }],
   creator: 'Permis Bateau Metz',
   publisher: 'Permis Bateau Metz',
+  applicationName: 'Permis Bateau Metz',
   category: 'education',
   manifest: '/manifest.json',
   openGraph: {
@@ -127,6 +128,7 @@ const webSiteSchema = {
   '@type': 'WebSite',
   '@id': 'https://permis-bateau-metz.fr/#website',
   name: 'Permis Bateau Metz',
+  alternateName: 'Permis Bateau Metz - Permis bateau \u00e0 Metz',
   url: 'https://permis-bateau-metz.fr',
   description: 'Plateforme ind\u00e9pendante d\u2019information et de mise en relation pour le permis bateau \u00e0 Metz, Moselle et Grand Est.',
   potentialAction: {
